@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name probe-rs-hive)(type KiCad)(uri ${KIPRJMOD}/probe-rs-hive.pretty)(options "")(descr ""))
+)
