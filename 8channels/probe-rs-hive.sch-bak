@@ -556,4 +556,20 @@ Text Label 6250 3900 0    50   ~ 0
 RST
 Text Label 6250 4300 0    50   ~ 0
 RST
+NoConn ~ 6250 1150
+NoConn ~ 6250 1550
+NoConn ~ 6250 1950
+NoConn ~ 6250 2350
+NoConn ~ 6250 2450
+NoConn ~ 6250 2550
+NoConn ~ 5750 2450
+NoConn ~ 5750 2550
+NoConn ~ 6250 3200
+NoConn ~ 6250 3600
+NoConn ~ 6250 4000
+NoConn ~ 6250 4400
+NoConn ~ 6250 4500
+NoConn ~ 6250 4600
+NoConn ~ 5750 4500
+NoConn ~ 5750 4600
 $EndSCHEMATC

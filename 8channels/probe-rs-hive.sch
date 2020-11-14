@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:probe-rs-hive-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -541,21 +540,21 @@ TDO|SWO
 Text Label 3550 4650 2    50   ~ 0
 TDI|EXT
 Text Label 6250 1050 0    50   ~ 0
-RST
+RST_8
 Text Label 6250 1450 0    50   ~ 0
-RST
+RST_7
 Text Label 6250 1850 0    50   ~ 0
-RST
+RST_6
 Text Label 6250 2250 0    50   ~ 0
-RST
+RST_5
 Text Label 6250 3100 0    50   ~ 0
-RST
+RST_4
 Text Label 6250 3500 0    50   ~ 0
-RST
+RST_3
 Text Label 6250 3900 0    50   ~ 0
-RST
+RST_2
 Text Label 6250 4300 0    50   ~ 0
-RST
+RST_1
 NoConn ~ 6250 1150
 NoConn ~ 6250 1550
 NoConn ~ 6250 1950
@@ -572,4 +571,50 @@ NoConn ~ 6250 4500
 NoConn ~ 6250 4600
 NoConn ~ 5750 4500
 NoConn ~ 5750 4600
+Text Label 4150 5250 0    50   ~ 0
+RST_8
+Text Label 4150 5350 0    50   ~ 0
+RST_7
+Text Label 4150 5450 0    50   ~ 0
+RST_6
+Text Label 4150 5550 0    50   ~ 0
+RST_5
+Text Label 4150 5650 0    50   ~ 0
+RST_4
+Text Label 4150 5750 0    50   ~ 0
+RST_3
+Text Label 4150 5850 0    50   ~ 0
+RST_2
+Text Label 4150 5950 0    50   ~ 0
+RST_1
+$Comp
+L probe-rs-hive:SN74CB3Q3251PWR U?
+U 1 1 5FB06162
+P 3850 5600
+AR Path="/5E6BE00C/5FB06162" Ref="U?"  Part="1" 
+AR Path="/5E768EC7/5FB06162" Ref="U?"  Part="1" 
+AR Path="/5E769194/5FB06162" Ref="U?"  Part="1" 
+AR Path="/5E769690/5FB06162" Ref="U?"  Part="1" 
+AR Path="/5FB06162" Ref="U?"  Part="1" 
+F 0 "U?" H 3700 6100 50  0000 C CNN
+F 1 "SN74CB3Q3251PWR" H 4000 5100 50  0000 C CNN
+F 2 "probe-rs-hive:R-PVQFN-N16" H 3850 5000 50  0001 C CNN
+F 3 "" H 3550 5250 50  0001 C CNN
+	1    3850 5600
+	1    0    0    -1  
+$EndComp
+Text Label 3550 5250 2    50   ~ 0
+VCC
+Text Label 3550 5950 2    50   ~ 0
+GND
+Text Label 3550 5350 2    50   ~ 0
+S0
+Text Label 3550 5450 2    50   ~ 0
+S1
+Text Label 3550 5550 2    50   ~ 0
+S2
+Text Label 3550 5650 2    50   ~ 0
+OE
+Text Label 3550 5750 2    50   ~ 0
+RST
 $EndSCHEMATC
