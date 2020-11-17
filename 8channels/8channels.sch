@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:8channels-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -254,33 +253,18 @@ Text Label 1200 1750 0    50   ~ 0
 OE5
 Text Label 1200 1850 0    50   ~ 0
 OE6
-Text Label 1550 2150 0    50   ~ 0
-TMS|SWDIO
-Text Label 1550 2250 0    50   ~ 0
-TCK|SWDCLK
 Text Label 1550 2350 0    50   ~ 0
-TDO|SWO
+TMS|SWDIO
 Text Label 1550 2450 0    50   ~ 0
-TDI|EXT
+TCK|SWDCLK
 Text Label 1550 2550 0    50   ~ 0
-RST
+TDO|SWO
 Text Label 1550 2650 0    50   ~ 0
+TDI|EXT
+Text Label 1550 2750 0    50   ~ 0
+RST
+Text Label 1550 2850 0    50   ~ 0
 GND
-$Comp
-L Connector:Conn_01x18_Male J2
-U 1 1 5FB65BA5
-P 1000 1750
-F 0 "J2" H 1108 2731 50  0000 C CNN
-F 1 "Conn_01x18_Male" H 1108 2640 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Horizontal" H 1000 1750 50  0001 C CNN
-F 3 "~" H 1000 1750 50  0001 C CNN
-	1    1000 1750
-	1    0    0    -1  
-$EndComp
-Text Label 3550 850  2    50   ~ 0
-VCC
-Text Label 3550 1950 2    50   ~ 0
-VCC
 Text Label 5750 1050 2    50   ~ 0
 VCC
 Text Label 5750 1450 2    50   ~ 0
@@ -297,16 +281,8 @@ Text Label 5750 3900 2    50   ~ 0
 VCC
 Text Label 5750 4300 2    50   ~ 0
 VCC
-Text Label 3550 3050 2    50   ~ 0
-VCC
-Text Label 3550 4150 2    50   ~ 0
-VCC
 Text Label 5750 2050 2    50   ~ 0
 TMS|SWDIO_5
-Text Label 3550 1550 2    50   ~ 0
-GND
-Text Label 3550 2650 2    50   ~ 0
-GND
 Text Label 5750 1150 2    50   ~ 0
 GND
 Text Label 5750 1550 2    50   ~ 0
@@ -322,10 +298,6 @@ GND
 Text Label 5750 4000 2    50   ~ 0
 GND
 Text Label 5750 4400 2    50   ~ 0
-GND
-Text Label 3550 3750 2    50   ~ 0
-GND
-Text Label 3550 4850 2    50   ~ 0
 GND
 Text Label 3550 950  2    50   ~ 0
 S0
@@ -433,10 +405,6 @@ F 3 "" H 3550 5250 50  0001 C CNN
 	1    3850 5600
 	1    0    0    -1  
 $EndComp
-Text Label 3550 5250 2    50   ~ 0
-VCC
-Text Label 3550 5950 2    50   ~ 0
-GND
 Text Label 3550 5350 2    50   ~ 0
 S0
 Text Label 3550 5450 2    50   ~ 0
@@ -448,17 +416,13 @@ OE
 Text Label 3550 5750 2    50   ~ 0
 RST
 Wire Wire Line
-	1200 950  2300 950 
+	1200 950  1350 950 
 Wire Wire Line
 	1200 1050 2300 1050
 Wire Wire Line
 	1200 1150 2300 1150
 Wire Wire Line
 	1200 1250 2300 1250
-Wire Wire Line
-	1200 1950 2300 1950
-Wire Wire Line
-	1200 2050 2300 2050
 Wire Wire Line
 	1200 2150 2300 2150
 Wire Wire Line
@@ -471,6 +435,10 @@ Wire Wire Line
 	1200 2550 2300 2550
 Wire Wire Line
 	1200 2650 2300 2650
+Wire Wire Line
+	1200 2750 2300 2750
+Wire Wire Line
+	1200 2850 1350 2850
 Wire Wire Line
 	1200 1850 2000 1850
 Wire Wire Line
@@ -501,22 +469,22 @@ Wire Wire Line
 	1600 1350 1600 1450
 Wire Wire Line
 	1600 1450 1200 1450
-Text Label 1550 2050 0    50   ~ 0
+Text Label 1550 2250 0    50   ~ 0
 GND
-Text Label 1550 1950 0    50   ~ 0
+Text Label 1550 2150 0    50   ~ 0
 GND
 $Comp
-L Connector:Conn_01x18_Female J1
+L Connector:Conn_01x20_Female J1
 U 1 1 5FB6140B
-P 2500 1750
-F 0 "J1" H 2350 2750 50  0000 L CNN
-F 1 "Conn_01x18_Female" H 2050 2650 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Horizontal" H 2500 1750 50  0001 C CNN
-F 3 "~" H 2500 1750 50  0001 C CNN
-	1    2500 1750
+P 2500 1850
+F 0 "J1" H 2350 2850 50  0000 L CNN
+F 1 "Conn_01x18_Female" H 2050 2750 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 2500 1850 50  0001 C CNN
+F 3 "~" H 2500 1850 50  0001 C CNN
+	1    2500 1850
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2300 1850
+NoConn ~ 2300 2050
 $Comp
 L Device:C_Small C1
 U 1 1 5FB71049
@@ -598,4 +566,252 @@ Wire Wire Line
 	9300 1450 8900 1450
 Text Label 8000 1250 0    50   ~ 0
 VCC
+$Comp
+L Connector:Conn_01x20_Male J2
+U 1 1 5FB65BA5
+P 1000 1850
+F 0 "J2" H 1108 2831 50  0000 C CNN
+F 1 "Conn_01x18_Male" H 1108 2740 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Horizontal" H 1000 1850 50  0001 C CNN
+F 3 "~" H 1000 1850 50  0001 C CNN
+	1    1000 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1950 2100 1950
+Wire Wire Line
+	2100 1950 2100 1850
+Wire Wire Line
+	2100 1850 2300 1850
+Wire Wire Line
+	1200 2050 2200 2050
+Wire Wire Line
+	2200 2050 2200 1950
+Wire Wire Line
+	2200 1950 2300 1950
+Text Label 1200 1950 0    50   ~ 0
+OE7
+Text Label 1200 2050 0    50   ~ 0
+OE8
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5FB4FDF3
+P 1900 950
+F 0 "#FLG?" H 1900 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 1123 50  0000 C CNN
+F 2 "" H 1900 950 50  0001 C CNN
+F 3 "~" H 1900 950 50  0001 C CNN
+	1    1900 950 
+	1    0    0    -1  
+$EndComp
+Connection ~ 1900 950 
+Wire Wire Line
+	1900 950  2300 950 
+$Comp
+L power:GND #PWR?
+U 1 1 5FB50627
+P 1350 2850
+F 0 "#PWR?" H 1350 2600 50  0001 C CNN
+F 1 "GND" H 1355 2677 50  0001 C CNN
+F 2 "" H 1350 2850 50  0001 C CNN
+F 3 "" H 1350 2850 50  0001 C CNN
+	1    1350 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 1350 2850
+Wire Wire Line
+	1350 2850 1850 2850
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5FB50C59
+P 1850 2850
+F 0 "#FLG?" H 1850 2925 50  0001 C CNN
+F 1 "PWR_FLAG" H 1850 3023 50  0000 C CNN
+F 2 "" H 1850 2850 50  0001 C CNN
+F 3 "~" H 1850 2850 50  0001 C CNN
+	1    1850 2850
+	-1   0    0    1   
+$EndComp
+Connection ~ 1850 2850
+Wire Wire Line
+	1850 2850 2300 2850
+$Comp
+L power:GND #PWR?
+U 1 1 5FB5146B
+P 3550 4950
+F 0 "#PWR?" H 3550 4700 50  0001 C CNN
+F 1 "GND" H 3555 4777 50  0001 C CNN
+F 2 "" H 3550 4950 50  0001 C CNN
+F 3 "" H 3550 4950 50  0001 C CNN
+	1    3550 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB51FA3
+P 3550 4850
+F 0 "#PWR?" H 3550 4600 50  0001 C CNN
+F 1 "GND" H 3555 4677 50  0001 C CNN
+F 2 "" H 3550 4850 50  0001 C CNN
+F 3 "" H 3550 4850 50  0001 C CNN
+	1    3550 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB5267E
+P 3550 6050
+F 0 "#PWR?" H 3550 5800 50  0001 C CNN
+F 1 "GND" H 3555 5877 50  0001 C CNN
+F 2 "" H 3550 6050 50  0001 C CNN
+F 3 "" H 3550 6050 50  0001 C CNN
+	1    3550 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB52684
+P 3550 5950
+F 0 "#PWR?" H 3550 5700 50  0001 C CNN
+F 1 "GND" H 3555 5777 50  0001 C CNN
+F 2 "" H 3550 5950 50  0001 C CNN
+F 3 "" H 3550 5950 50  0001 C CNN
+	1    3550 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB534FD
+P 3550 3850
+F 0 "#PWR?" H 3550 3600 50  0001 C CNN
+F 1 "GND" H 3555 3677 50  0001 C CNN
+F 2 "" H 3550 3850 50  0001 C CNN
+F 3 "" H 3550 3850 50  0001 C CNN
+	1    3550 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB53503
+P 3550 3750
+F 0 "#PWR?" H 3550 3500 50  0001 C CNN
+F 1 "GND" H 3555 3577 50  0001 C CNN
+F 2 "" H 3550 3750 50  0001 C CNN
+F 3 "" H 3550 3750 50  0001 C CNN
+	1    3550 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB5425C
+P 3550 2750
+F 0 "#PWR?" H 3550 2500 50  0001 C CNN
+F 1 "GND" H 3555 2577 50  0001 C CNN
+F 2 "" H 3550 2750 50  0001 C CNN
+F 3 "" H 3550 2750 50  0001 C CNN
+	1    3550 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB54262
+P 3550 2650
+F 0 "#PWR?" H 3550 2400 50  0001 C CNN
+F 1 "GND" H 3555 2477 50  0001 C CNN
+F 2 "" H 3550 2650 50  0001 C CNN
+F 3 "" H 3550 2650 50  0001 C CNN
+	1    3550 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB55111
+P 3550 1650
+F 0 "#PWR?" H 3550 1400 50  0001 C CNN
+F 1 "GND" H 3555 1477 50  0001 C CNN
+F 2 "" H 3550 1650 50  0001 C CNN
+F 3 "" H 3550 1650 50  0001 C CNN
+	1    3550 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB55117
+P 3550 1550
+F 0 "#PWR?" H 3550 1300 50  0001 C CNN
+F 1 "GND" H 3555 1377 50  0001 C CNN
+F 2 "" H 3550 1550 50  0001 C CNN
+F 3 "" H 3550 1550 50  0001 C CNN
+	1    3550 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FB45176
+P 1350 950
+F 0 "#PWR?" H 1350 800 50  0001 C CNN
+F 1 "+3.3V" H 1365 1123 50  0000 C CNN
+F 2 "" H 1350 950 50  0001 C CNN
+F 3 "" H 1350 950 50  0001 C CNN
+	1    1350 950 
+	1    0    0    -1  
+$EndComp
+Connection ~ 1350 950 
+Wire Wire Line
+	1350 950  1900 950 
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FB456D2
+P 3550 850
+F 0 "#PWR?" H 3550 700 50  0001 C CNN
+F 1 "+3.3V" V 3565 978 50  0000 L CNN
+F 2 "" H 3550 850 50  0001 C CNN
+F 3 "" H 3550 850 50  0001 C CNN
+	1    3550 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FB46463
+P 3550 1950
+F 0 "#PWR?" H 3550 1800 50  0001 C CNN
+F 1 "+3.3V" V 3565 2078 50  0000 L CNN
+F 2 "" H 3550 1950 50  0001 C CNN
+F 3 "" H 3550 1950 50  0001 C CNN
+	1    3550 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FB46A33
+P 3550 3050
+F 0 "#PWR?" H 3550 2900 50  0001 C CNN
+F 1 "+3.3V" V 3565 3178 50  0000 L CNN
+F 2 "" H 3550 3050 50  0001 C CNN
+F 3 "" H 3550 3050 50  0001 C CNN
+	1    3550 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FB46E1F
+P 3550 4150
+F 0 "#PWR?" H 3550 4000 50  0001 C CNN
+F 1 "+3.3V" V 3565 4278 50  0000 L CNN
+F 2 "" H 3550 4150 50  0001 C CNN
+F 3 "" H 3550 4150 50  0001 C CNN
+	1    3550 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FB47462
+P 3550 5250
+F 0 "#PWR?" H 3550 5100 50  0001 C CNN
+F 1 "+3.3V" V 3565 5378 50  0000 L CNN
+F 2 "" H 3550 5250 50  0001 C CNN
+F 3 "" H 3550 5250 50  0001 C CNN
+	1    3550 5250
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
