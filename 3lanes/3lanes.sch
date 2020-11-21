@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:3lanes-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -158,52 +157,52 @@ TDO|SWO
 $Comp
 L Connector:Raspberry_Pi_2_3 J4
 U 1 1 5FB725A2
-P 5800 3600
-F 0 "J4" H 5800 5081 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 5800 4990 50  0000 C CNN
-F 2 "" H 5800 3600 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 5800 3600 50  0001 C CNN
-	1    5800 3600
+P 8400 3600
+F 0 "J4" H 8400 5081 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 8400 4990 50  0000 C CNN
+F 2 "" H 8400 3600 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 8400 3600 50  0001 C CNN
+	1    8400 3600
 	1    0    0    -1  
 $EndComp
-Text Label 6600 2700 0    50   ~ 0
+Text Label 9200 2700 0    50   ~ 0
 S0
-Text Label 6600 2800 0    50   ~ 0
+Text Label 9200 2800 0    50   ~ 0
 S1
-Text Label 6600 3000 0    50   ~ 0
+Text Label 9200 3000 0    50   ~ 0
 S2
-Text Label 6600 3100 0    50   ~ 0
+Text Label 9200 3100 0    50   ~ 0
 OE1
-Text Label 6600 3300 0    50   ~ 0
+Text Label 9200 3300 0    50   ~ 0
 OE2
-Text Label 6600 3400 0    50   ~ 0
+Text Label 9200 3400 0    50   ~ 0
 OE3
-Text Label 6600 3500 0    50   ~ 0
+Text Label 9200 3500 0    50   ~ 0
 OE4
-Text Label 6600 3700 0    50   ~ 0
+Text Label 9200 3700 0    50   ~ 0
 OE5
-Text Label 6600 3800 0    50   ~ 0
+Text Label 9200 3800 0    50   ~ 0
 OE6
-Text Label 6600 3900 0    50   ~ 0
+Text Label 9200 3900 0    50   ~ 0
 OE7
-Text Label 6600 4000 0    50   ~ 0
+Text Label 9200 4000 0    50   ~ 0
 OE8
-Text Label 5400 4900 3    50   ~ 0
+Text Label 8000 4900 3    50   ~ 0
 GND
-Text Label 5900 2300 1    50   ~ 0
+Text Label 8500 2300 1    50   ~ 0
 VCC
-Text Label 5500 4900 3    50   ~ 0
+Text Label 8100 4900 3    50   ~ 0
 GND
-Text Label 5600 4900 3    50   ~ 0
+Text Label 8200 4900 3    50   ~ 0
 GND
-Text Label 5700 4900 3    50   ~ 0
+Text Label 8300 4900 3    50   ~ 0
 GND
-Text Label 5800 4900 3    50   ~ 0
+Text Label 8400 4900 3    50   ~ 0
 GND
-Text Label 5900 4900 3    50   ~ 0
+Text Label 8500 4900 3    50   ~ 0
 GND
-Text Label 6100 4900 3    50   ~ 0
+Text Label 8700 4900 3    50   ~ 0
 GND
-NoConn ~ 6000 4900
-NoConn ~ 6000 2300
+NoConn ~ 8600 4900
+NoConn ~ 8600 2300
 $EndSCHEMATC
