@@ -1,4 +1,4 @@
-(module 10018784-10200TLF locked (layer F.Cu) (tedit 5FB8E261)
+(module 10018784-10200TLF locked (layer F.Cu) (tedit 5FB94013)
   (fp_text reference P0 (at -10.45 6.05) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -71,7 +71,7 @@
   (pad B18 thru_hole circle (at 9.5 3.25) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 2.15 0) (size 2.35 2.35) (drill 2.35) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 11.3 0) (size 2.35 2.35) (drill 2.35) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/3d/PCI-E x1.stp"
+  (model "${KIMODELS}/PCI-E x1.stp"
     (offset (xyz 0 0 5.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 180))
