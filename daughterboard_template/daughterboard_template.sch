@@ -1,0 +1,337 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0101
+U 1 1 5FBB29CF
+P 2000 2950
+F 0 "#PWR0101" H 2000 2700 50  0001 C CNN
+F 1 "GND" H 2005 2777 50  0001 C CNN
+F 2 "" H 2000 2950 50  0001 C CNN
+F 3 "" H 2000 2950 50  0001 C CNN
+	1    2000 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5FBB29C9
+P 2000 2850
+F 0 "#PWR0102" H 2000 2700 50  0001 C CNN
+F 1 "+3.3V" V 2015 2978 50  0000 L CNN
+F 2 "" H 2000 2850 50  0001 C CNN
+F 3 "" H 2000 2850 50  0001 C CNN
+	1    2000 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5FBB166A
+P 2000 2550
+F 0 "#PWR0103" H 2000 2300 50  0001 C CNN
+F 1 "GND" H 2005 2377 50  0001 C CNN
+F 2 "" H 2000 2550 50  0001 C CNN
+F 3 "" H 2000 2550 50  0001 C CNN
+	1    2000 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5FBB1664
+P 2000 2450
+F 0 "#PWR0104" H 2000 2300 50  0001 C CNN
+F 1 "+3.3V" V 2015 2578 50  0000 L CNN
+F 2 "" H 2000 2450 50  0001 C CNN
+F 3 "" H 2000 2450 50  0001 C CNN
+	1    2000 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5FBB02D5
+P 2000 2150
+F 0 "#PWR0105" H 2000 1900 50  0001 C CNN
+F 1 "GND" H 2005 1977 50  0001 C CNN
+F 2 "" H 2000 2150 50  0001 C CNN
+F 3 "" H 2000 2150 50  0001 C CNN
+	1    2000 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0106
+U 1 1 5FBB02CF
+P 2000 2050
+F 0 "#PWR0106" H 2000 1900 50  0001 C CNN
+F 1 "+3.3V" V 2015 2178 50  0000 L CNN
+F 2 "" H 2000 2050 50  0001 C CNN
+F 3 "" H 2000 2050 50  0001 C CNN
+	1    2000 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5FBAF22E
+P 2000 1750
+F 0 "#PWR0107" H 2000 1500 50  0001 C CNN
+F 1 "GND" H 2005 1577 50  0001 C CNN
+F 2 "" H 2000 1750 50  0001 C CNN
+F 3 "" H 2000 1750 50  0001 C CNN
+	1    2000 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 5FBAF228
+P 2000 1650
+F 0 "#PWR0108" H 2000 1500 50  0001 C CNN
+F 1 "+3.3V" V 2015 1778 50  0000 L CNN
+F 2 "" H 2000 1650 50  0001 C CNN
+F 3 "" H 2000 1650 50  0001 C CNN
+	1    2000 1650
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 2000 3150
+NoConn ~ 2000 3050
+NoConn ~ 2500 3150
+NoConn ~ 2500 3050
+NoConn ~ 2500 2950
+NoConn ~ 2500 2550
+NoConn ~ 2500 2150
+NoConn ~ 2500 1750
+Text Label 2500 2850 0    50   ~ 0
+RST_1
+Text Label 2500 2450 0    50   ~ 0
+RST_2
+Text Label 2500 2050 0    50   ~ 0
+RST_3
+Text Label 2500 1650 0    50   ~ 0
+RST_4
+Text Label 2000 2650 2    50   ~ 0
+TMS|SWDIO_1
+Text Label 2000 2250 2    50   ~ 0
+TMS|SWDIO_2
+Text Label 2000 1850 2    50   ~ 0
+TMS|SWDIO_3
+Text Label 2000 1450 2    50   ~ 0
+TMS|SWDIO_4
+Text Label 2000 2750 2    50   ~ 0
+TCK|SWDCLK_1
+Text Label 2000 2350 2    50   ~ 0
+TCK|SWDCLK_2
+Text Label 2000 1950 2    50   ~ 0
+TCK|SWDCLK_3
+Text Label 2000 1550 2    50   ~ 0
+TCK|SWDCLK_4
+Text Label 2500 1850 0    50   ~ 0
+TDO|SWO_3
+Text Label 2500 1450 0    50   ~ 0
+TDO|SWO_4
+Text Label 2500 1950 0    50   ~ 0
+TDI|EXT_3
+Text Label 2500 2250 0    50   ~ 0
+TDO|SWO_2
+Text Label 2500 2350 0    50   ~ 0
+TDI|EXT_2
+Text Label 2500 2650 0    50   ~ 0
+TDO|SWO_1
+Text Label 2500 2750 0    50   ~ 0
+TDI|EXT_1
+Text Label 2500 1550 0    50   ~ 0
+TDI|EXT_4
+$Comp
+L probe-rs-hive:PCIEX1_02X18 P1
+U 1 1 5FB8FBCC
+P 2250 2300
+F 0 "P1" H 2250 3455 50  0000 C CNN
+F 1 "PCIEX1_02X18" H 2250 3364 50  0000 C CNN
+F 2 "Connector_PCBEdge:BUS_PCIexpress" H 2250 3273 50  0000 C CNN
+F 3 "" H 2250 1250 50  0000 C CNN
+	1    2250 2300
+	1    0    0    -1  
+$EndComp
+Text Notes 3600 3500 0    197  ~ 0
+Please add your 4 MCUs here.\n\nPlease check if your MCU is already present\non another daughterboard first!\n\nPlease connect the 100n caps close\nto your VCC pins and add more if there is\nmore than one VCC pin!
+$Comp
+L Device:C_Small C1
+U 1 1 5FC41F03
+P 2100 5000
+F 0 "C1" H 2192 5046 50  0000 L CNN
+F 1 "100n" H 2192 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2100 5000 50  0001 C CNN
+F 3 "~" H 2100 5000 50  0001 C CNN
+	1    2100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5FC4232A
+P 3700 5000
+F 0 "R1" H 3759 5046 50  0000 L CNN
+F 1 "10k" H 3759 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3700 5000 50  0001 C CNN
+F 3 "~" H 3700 5000 50  0001 C CNN
+	1    3700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FC43BC5
+P 1800 5000
+F 0 "C?" H 1892 5046 50  0000 L CNN
+F 1 "100n" H 1892 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1800 5000 50  0001 C CNN
+F 3 "~" H 1800 5000 50  0001 C CNN
+	1    1800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FC43C47
+P 1500 5000
+F 0 "C?" H 1592 5046 50  0000 L CNN
+F 1 "100n" H 1592 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1500 5000 50  0001 C CNN
+F 3 "~" H 1500 5000 50  0001 C CNN
+	1    1500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FC43FA1
+P 3400 5000
+F 0 "R?" H 3459 5046 50  0000 L CNN
+F 1 "10k" H 3459 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3400 5000 50  0001 C CNN
+F 3 "~" H 3400 5000 50  0001 C CNN
+	1    3400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FC44211
+P 3100 5000
+F 0 "R?" H 3159 5046 50  0000 L CNN
+F 1 "10k" H 3159 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3100 5000 50  0001 C CNN
+F 3 "~" H 3100 5000 50  0001 C CNN
+	1    3100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5FC44349
+P 2800 5000
+F 0 "R?" H 2859 5046 50  0000 L CNN
+F 1 "10k" H 2859 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2800 5000 50  0001 C CNN
+F 3 "~" H 2800 5000 50  0001 C CNN
+	1    2800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FC44624
+P 1200 5000
+F 0 "C?" H 1292 5046 50  0000 L CNN
+F 1 "100n" H 1292 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1200 5000 50  0001 C CNN
+F 3 "~" H 1200 5000 50  0001 C CNN
+	1    1200 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 5100 1800 5100
+Connection ~ 1500 5100
+Wire Wire Line
+	1500 5100 1200 5100
+Connection ~ 1800 5100
+Wire Wire Line
+	1800 5100 1650 5100
+Wire Wire Line
+	1200 4900 1500 4900
+Connection ~ 1500 4900
+Connection ~ 1800 4900
+Wire Wire Line
+	1800 4900 2100 4900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FC46A66
+P 2450 4350
+F 0 "#PWR?" H 2450 4200 50  0001 C CNN
+F 1 "+3.3V" H 2465 4523 50  0000 C CNN
+F 2 "" H 2450 4350 50  0001 C CNN
+F 3 "" H 2450 4350 50  0001 C CNN
+	1    2450 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4600 2450 4600
+Wire Wire Line
+	2450 4600 2450 4350
+Wire Wire Line
+	2450 4600 1650 4600
+Connection ~ 2450 4600
+Text Label 2800 5400 1    50   ~ 0
+RST_1
+Text Label 3100 5400 1    50   ~ 0
+RST_2
+Text Label 3400 5400 1    50   ~ 0
+RST_3
+Text Label 3700 5400 1    50   ~ 0
+RST_4
+Wire Wire Line
+	2800 5100 2800 5400
+Wire Wire Line
+	3100 5100 3100 5400
+Wire Wire Line
+	3400 5100 3400 5400
+Wire Wire Line
+	3700 5100 3700 5400
+$Comp
+L power:GND #PWR?
+U 1 1 5FC4E51F
+P 1650 5150
+F 0 "#PWR?" H 1650 4900 50  0001 C CNN
+F 1 "GND" H 1655 4977 50  0000 C CNN
+F 2 "" H 1650 5150 50  0001 C CNN
+F 3 "" H 1650 5150 50  0001 C CNN
+	1    1650 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4900 1650 4900
+Wire Wire Line
+	2800 4900 3100 4900
+Connection ~ 3100 4900
+Wire Wire Line
+	3100 4900 3250 4900
+Connection ~ 3400 4900
+Wire Wire Line
+	3400 4900 3700 4900
+Wire Wire Line
+	3250 4600 3250 4900
+Connection ~ 3250 4900
+Wire Wire Line
+	3250 4900 3400 4900
+Wire Wire Line
+	1650 4600 1650 4900
+Connection ~ 1650 4900
+Wire Wire Line
+	1650 4900 1800 4900
+Wire Wire Line
+	1650 5100 1650 5150
+Connection ~ 1650 5100
+Wire Wire Line
+	1650 5100 1500 5100
+$EndSCHEMATC
