@@ -5,7 +5,6 @@
 *~
 _autosave-*
 *.tmp
-*cache*
 
 # Netlist files (exported from Eeschema)
 *.net

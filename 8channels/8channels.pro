@@ -1,4 +1,4 @@
-update=Tue 17 Nov 2020 06:54:54 PM CET
+update=06.07.2021 22:22:44
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=probe-rs-hive.net
+LastNetListRead=8channels.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -73,7 +73,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
