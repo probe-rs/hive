@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name probe-rs-hive)(type Legacy)(uri ${KIPRJMOD}/../lib/probe-rs-hive.lib)(options "")(descr ""))
-)
