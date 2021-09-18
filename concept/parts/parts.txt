@@ -3,7 +3,10 @@ PCB Pins/Receptacles for Rpi & Probe Bus:
 	https://www.samtec.com/products/ssq
 
 PCIE x4 64pin angled:
-	https://www.mouser.ch/ProductDetail/TE-Connectivity/2-1761465-2?qs=sjGyaCEB9eZsZxkxHqzJRQ%3D%3D
+	https://www.mouser.ch/ProductDetail/Samtec/PCIE-064-02-F-D-RA?qs=%2Fha2pyFaduhE9skzL9IpvNsrW0zxqexjG2fd60yobxGx5MyGxebw9Hc9j7faRraV
 	
 STDC14 connector (keyed):
 	https://www.samtec.com/products/ftsh-107-01-l-dv-k-a
+	
+Status LED:
+	https://www.mouser.ch/ProductDetail/Kingbright/APFA2507LSURKSYKZGKC?qs=sGAEpiMZZMvyj6n1w4pZD6eAxfjFR14DQbRl3SGGWD7tDWKsfS49bQ%3D%3D
