@@ -10,3 +10,7 @@ STDC14 connector (keyed):
 	
 Status LED:
 	https://www.mouser.ch/ProductDetail/Kingbright/APFA2507LSURKSYKZGKC?qs=sGAEpiMZZMvyj6n1w4pZD6eAxfjFR14DQbRl3SGGWD7tDWKsfS49bQ%3D%3D
+	
+IO expander:
+	MCP23017
+	PCA9535
