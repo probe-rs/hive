@@ -25,3 +25,7 @@ Status LED:
 IO expander:
 	MCP23017
 	PCA9535
+	
+Digital bus switches:
+	SN74CB3Q16245 (2x8Bit)
+	SN74CB3T16212 (2x12Bit, 3pins required for switching, 5V tolerant)
