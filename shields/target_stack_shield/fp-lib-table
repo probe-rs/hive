@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name hive)(type KiCad)(uri ${KIPRJMOD}/../../component_library/lib_fp/hive.pretty)(options "")(descr ""))
+)

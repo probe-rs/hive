@@ -1,0 +1,396 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "probe shield"
+Date "2021-09-23"
+Rev "0"
+Comp "probe-rs"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 614DDDDB
+P 900 800
+F 0 "H?" H 1000 846 50  0000 L CNN
+F 1 "MountingHole" H 1000 755 50  0000 L CNN
+F 2 "" H 900 800 50  0001 C CNN
+F 3 "~" H 900 800 50  0001 C CNN
+	1    900  800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 614DE1A0
+P 900 1000
+F 0 "H?" H 1000 1046 50  0000 L CNN
+F 1 "MountingHole" H 1000 955 50  0000 L CNN
+F 2 "" H 900 1000 50  0001 C CNN
+F 3 "~" H 900 1000 50  0001 C CNN
+	1    900  1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 614DE333
+P 900 1200
+F 0 "H?" H 1000 1246 50  0000 L CNN
+F 1 "MountingHole" H 1000 1155 50  0000 L CNN
+F 2 "" H 900 1200 50  0001 C CNN
+F 3 "~" H 900 1200 50  0001 C CNN
+	1    900  1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 614DE443
+P 900 1400
+F 0 "H?" H 1000 1446 50  0000 L CNN
+F 1 "MountingHole" H 1000 1355 50  0000 L CNN
+F 2 "" H 900 1400 50  0001 C CNN
+F 3 "~" H 900 1400 50  0001 C CNN
+	1    900  1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hive:FTSH-105-01-F-DV-007-ARM-10pindebug J?
+U 1 1 614DF27C
+P 1850 2700
+F 0 "J?" H 1850 3167 50  0000 C CNN
+F 1 "Probe Channel 0" H 1850 3076 50  0000 C CNN
+F 2 "SAMTEC_FTSH-105-01-F-DV-007" H 1900 2700 50  0001 L BNN
+F 3 "" H 1850 2700 50  0001 L BNN
+F 4 "R" H 1850 2700 50  0001 L BNN "PARTREV"
+F 5 "Manufacturer Recommendations" H 1900 2700 50  0001 L BNN "STANDARD"
+F 6 "Samtec" H 1850 2700 50  0001 L BNN "MANUFACTURER"
+	1    1850 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hive:NCP1117DT33T5G IC?
+U 1 1 614E145A
+P 3150 1200
+F 0 "IC?" H 3900 1465 50  0000 C CNN
+F 1 "NCP1117DT33T5G" H 3900 1374 50  0000 C CNN
+F 2 "TO229P990X238-4N" H 4500 1300 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/NCP1117-D.PDF" H 4500 1200 50  0001 L CNN
+F 4 "2.38" H 4500 1000 50  0001 L CNN "Height"
+F 5 "863-NCP1117DT33T5G" H 4500 900 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/onsemi/NCP1117DT33T5G?qs=Gev%252BmEvV0ibY9yFNc3ZYyw%3D%3D" H 4500 800 50  0001 L CNN "Mouser Price/Stock"
+F 7 "ON Semiconductor" H 4500 700 50  0001 L CNN "Manufacturer_Name"
+F 8 "NCP1117DT33T5G" H 4500 600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3150 1200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3150 1300
+$Comp
+L Device:C_Small C?
+U 1 1 614E2AAB
+P 2800 1300
+F 0 "C?" H 2892 1346 50  0000 L CNN
+F 1 "10u" H 2892 1255 50  0000 L CNN
+F 2 "" H 2800 1300 50  0001 C CNN
+F 3 "~" H 2800 1300 50  0001 C CNN
+	1    2800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 614E3C94
+P 4900 1300
+F 0 "C?" H 4992 1346 50  0000 L CNN
+F 1 "10u" H 4992 1255 50  0000 L CNN
+F 2 "" H 4900 1300 50  0001 C CNN
+F 3 "~" H 4900 1300 50  0001 C CNN
+	1    4900 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1200 2800 1200
+Wire Wire Line
+	3150 1400 2800 1400
+Wire Wire Line
+	2800 1400 2500 1400
+Connection ~ 2800 1400
+$Comp
+L power:+5V #PWR?
+U 1 1 614E4FE5
+P 2500 1400
+F 0 "#PWR?" H 2500 1250 50  0001 C CNN
+F 1 "+5V" V 2515 1528 50  0000 L CNN
+F 2 "" H 2500 1400 50  0001 C CNN
+F 3 "" H 2500 1400 50  0001 C CNN
+	1    2500 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614E5B73
+P 2500 1200
+F 0 "#PWR?" H 2500 950 50  0001 C CNN
+F 1 "GND" V 2505 1072 50  0000 R CNN
+F 2 "" H 2500 1200 50  0001 C CNN
+F 3 "" H 2500 1200 50  0001 C CNN
+	1    2500 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 1200 2500 1200
+Connection ~ 2800 1200
+$Comp
+L power:GND #PWR?
+U 1 1 614E6E00
+P 4900 1400
+F 0 "#PWR?" H 4900 1150 50  0001 C CNN
+F 1 "GND" H 4905 1227 50  0000 C CNN
+F 2 "" H 4900 1400 50  0001 C CNN
+F 3 "" H 4900 1400 50  0001 C CNN
+	1    4900 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1200 4900 1200
+Wire Wire Line
+	4900 1200 5350 1200
+Wire Wire Line
+	5350 1200 5350 1100
+Connection ~ 4900 1200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 614E789A
+P 5350 1100
+F 0 "#PWR?" H 5350 950 50  0001 C CNN
+F 1 "+3.3V" H 5365 1273 50  0000 C CNN
+F 2 "" H 5350 1100 50  0001 C CNN
+F 3 "" H 5350 1100 50  0001 C CNN
+	1    5350 1100
+	1    0    0    -1  
+$EndComp
+Text Notes 2250 800  0    99   ~ 0
+5V-3.3V 1A LDO
+Text Notes 1200 2100 0    99   ~ 0
+Probe connectors
+Wire Wire Line
+	2400 2500 3000 2500
+Wire Wire Line
+	2400 2600 3000 2600
+Wire Wire Line
+	2400 2700 3000 2700
+Wire Wire Line
+	2400 2800 3000 2800
+Wire Wire Line
+	2400 2900 3000 2900
+Wire Wire Line
+	1300 2600 1200 2600
+Wire Wire Line
+	1200 2600 1200 2700
+Wire Wire Line
+	1200 2900 1300 2900
+Wire Wire Line
+	1300 2700 1200 2700
+Connection ~ 1200 2700
+Wire Wire Line
+	1200 2700 1200 2900
+Text Label 3000 2500 2    50   ~ 0
+TMS|SWDIO_0
+Text Label 3000 2600 2    50   ~ 0
+TCK|SWDCLK_0
+Text Label 3000 2700 2    50   ~ 0
+TDO|SWO_0
+Text Label 3000 2800 2    50   ~ 0
+TDI|NC_0
+Text Label 3000 2900 2    50   ~ 0
+RST_0
+$Comp
+L hive:FTSH-105-01-F-DV-007-ARM-10pindebug J?
+U 1 1 614F37A7
+P 1850 3650
+F 0 "J?" H 1850 4117 50  0000 C CNN
+F 1 "Probe Channel 1" H 1850 4026 50  0000 C CNN
+F 2 "SAMTEC_FTSH-105-01-F-DV-007" H 1900 3650 50  0001 L BNN
+F 3 "" H 1850 3650 50  0001 L BNN
+F 4 "R" H 1850 3650 50  0001 L BNN "PARTREV"
+F 5 "Manufacturer Recommendations" H 1900 3650 50  0001 L BNN "STANDARD"
+F 6 "Samtec" H 1850 3650 50  0001 L BNN "MANUFACTURER"
+	1    1850 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3450 3000 3450
+Wire Wire Line
+	2400 3550 3000 3550
+Wire Wire Line
+	2400 3650 3000 3650
+Wire Wire Line
+	2400 3750 3000 3750
+Wire Wire Line
+	2400 3850 3000 3850
+Wire Wire Line
+	1300 3550 1200 3550
+Wire Wire Line
+	1200 3550 1200 3650
+Wire Wire Line
+	1200 3850 1300 3850
+Wire Wire Line
+	1300 3650 1200 3650
+Connection ~ 1200 3650
+Wire Wire Line
+	1200 3650 1200 3850
+Text Label 3000 3450 2    50   ~ 0
+TMS|SWDIO_1
+Text Label 3000 3550 2    50   ~ 0
+TCK|SWDCLK_1
+Text Label 3000 3650 2    50   ~ 0
+TDO|SWO_1
+Text Label 3000 3750 2    50   ~ 0
+TDI|NC_1
+Text Label 3000 3850 2    50   ~ 0
+RST_1
+$Comp
+L hive:FTSH-105-01-F-DV-007-ARM-10pindebug J?
+U 1 1 614F4AC5
+P 1850 4600
+F 0 "J?" H 1850 5067 50  0000 C CNN
+F 1 "Probe Channel 2" H 1850 4976 50  0000 C CNN
+F 2 "SAMTEC_FTSH-105-01-F-DV-007" H 1900 4600 50  0001 L BNN
+F 3 "" H 1850 4600 50  0001 L BNN
+F 4 "R" H 1850 4600 50  0001 L BNN "PARTREV"
+F 5 "Manufacturer Recommendations" H 1900 4600 50  0001 L BNN "STANDARD"
+F 6 "Samtec" H 1850 4600 50  0001 L BNN "MANUFACTURER"
+	1    1850 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4400 3000 4400
+Wire Wire Line
+	2400 4500 3000 4500
+Wire Wire Line
+	2400 4600 3000 4600
+Wire Wire Line
+	2400 4700 3000 4700
+Wire Wire Line
+	2400 4800 3000 4800
+Wire Wire Line
+	1300 4500 1200 4500
+Wire Wire Line
+	1200 4500 1200 4600
+Wire Wire Line
+	1200 4800 1300 4800
+Wire Wire Line
+	1300 4600 1200 4600
+Connection ~ 1200 4600
+Wire Wire Line
+	1200 4600 1200 4800
+Text Label 3000 4400 2    50   ~ 0
+TMS|SWDIO_2
+Text Label 3000 4500 2    50   ~ 0
+TCK|SWDCLK_2
+Text Label 3000 4600 2    50   ~ 0
+TDO|SWO_2
+Text Label 3000 4700 2    50   ~ 0
+TDI|NC_2
+Text Label 3000 4800 2    50   ~ 0
+RST_2
+$Comp
+L hive:FTSH-105-01-F-DV-007-ARM-10pindebug J?
+U 1 1 614F609D
+P 1850 5550
+F 0 "J?" H 1850 6017 50  0000 C CNN
+F 1 "Probe Channel 3" H 1850 5926 50  0000 C CNN
+F 2 "SAMTEC_FTSH-105-01-F-DV-007" H 1900 5550 50  0001 L BNN
+F 3 "" H 1850 5550 50  0001 L BNN
+F 4 "R" H 1850 5550 50  0001 L BNN "PARTREV"
+F 5 "Manufacturer Recommendations" H 1900 5550 50  0001 L BNN "STANDARD"
+F 6 "Samtec" H 1850 5550 50  0001 L BNN "MANUFACTURER"
+	1    1850 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 5350 3000 5350
+Wire Wire Line
+	2400 5450 3000 5450
+Wire Wire Line
+	2400 5550 3000 5550
+Wire Wire Line
+	2400 5650 3000 5650
+Wire Wire Line
+	2400 5750 3000 5750
+Wire Wire Line
+	1300 5450 1200 5450
+Wire Wire Line
+	1200 5450 1200 5550
+Wire Wire Line
+	1200 5750 1300 5750
+Wire Wire Line
+	1300 5550 1200 5550
+Connection ~ 1200 5550
+Wire Wire Line
+	1200 5550 1200 5750
+Text Label 3000 5350 2    50   ~ 0
+TMS|SWDIO_0
+Text Label 3000 5450 2    50   ~ 0
+TCK|SWDCLK_0
+Text Label 3000 5550 2    50   ~ 0
+TDO|SWO_0
+Text Label 3000 5650 2    50   ~ 0
+TDI|NC_0
+Text Label 3000 5750 2    50   ~ 0
+RST_0
+$Comp
+L power:+3.3V #PWR?
+U 1 1 614FA9FD
+P 1200 2500
+F 0 "#PWR?" H 1200 2350 50  0001 C CNN
+F 1 "+3.3V" V 1215 2628 50  0000 L CNN
+F 2 "" H 1200 2500 50  0001 C CNN
+F 3 "" H 1200 2500 50  0001 C CNN
+	1    1200 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 614FBB4C
+P 1200 3450
+F 0 "#PWR?" H 1200 3300 50  0001 C CNN
+F 1 "+3.3V" V 1215 3578 50  0000 L CNN
+F 2 "" H 1200 3450 50  0001 C CNN
+F 3 "" H 1200 3450 50  0001 C CNN
+	1    1200 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 614FBFDD
+P 1200 4400
+F 0 "#PWR?" H 1200 4250 50  0001 C CNN
+F 1 "+3.3V" V 1215 4528 50  0000 L CNN
+F 2 "" H 1200 4400 50  0001 C CNN
+F 3 "" H 1200 4400 50  0001 C CNN
+	1    1200 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 614FC47F
+P 1200 5350
+F 0 "#PWR?" H 1200 5200 50  0001 C CNN
+F 1 "+3.3V" V 1215 5478 50  0000 L CNN
+F 2 "" H 1200 5350 50  0001 C CNN
+F 3 "" H 1200 5350 50  0001 C CNN
+	1    1200 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1300 2500 1200 2500
+Wire Wire Line
+	1300 3450 1200 3450
+Wire Wire Line
+	1300 4400 1200 4400
+Wire Wire Line
+	1300 5350 1200 5350
+$EndSCHEMATC
