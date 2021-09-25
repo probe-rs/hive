@@ -1,0 +1,246 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title "IO Expander"
+Date "2021-09-25"
+Rev "0"
+Comp "probe-rs"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L hive:PCA9535CPW,118 U?
+U 1 1 6166B409
+P 6000 3150
+F 0 "U?" H 6000 4320 50  0000 C CNN
+F 1 "PCA9535CPW,118" H 6000 4229 50  0000 C CNN
+F 2 "SOP65P640X110-24N" H 6000 3150 50  0001 L BNN
+F 3 "" H 6000 3150 50  0001 L BNN
+F 4 "70R6541" H 6000 3150 50  0001 L BNN "OC_NEWARK"
+F 5 "TSSOP-24" H 6000 3150 50  0001 L BNN "PACKAGE"
+F 6 "PCA9535CPW,118" H 6000 3150 50  0001 L BNN "MPN"
+F 7 "NXP" H 6000 3150 50  0001 L BNN "SUPPLIER"
+F 8 "-" H 6000 3150 50  0001 L BNN "OC_FARNELL"
+	1    6000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 6166DA96
+P 1600 1150
+F 0 "JP?" H 1600 1355 50  0000 C CNN
+F 1 "Address Bit 0" H 1600 1264 50  0000 C CNN
+F 2 "" H 1600 1150 50  0001 C CNN
+F 3 "~" H 1600 1150 50  0001 C CNN
+	1    1600 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 6166F0B5
+P 1600 1550
+F 0 "JP?" H 1600 1755 50  0000 C CNN
+F 1 "Address Bit 1" H 1600 1664 50  0000 C CNN
+F 2 "" H 1600 1550 50  0001 C CNN
+F 3 "~" H 1600 1550 50  0001 C CNN
+	1    1600 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 6166F55C
+P 1600 1950
+F 0 "JP?" H 1600 2155 50  0000 C CNN
+F 1 "Address Bit 2" H 1600 2064 50  0000 C CNN
+F 2 "" H 1600 1950 50  0001 C CNN
+F 3 "~" H 1600 1950 50  0001 C CNN
+	1    1600 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1950 950  1950
+Wire Wire Line
+	950  1950 950  1550
+Wire Wire Line
+	950  1150 1450 1150
+Wire Wire Line
+	1450 1550 950  1550
+Connection ~ 950  1550
+Wire Wire Line
+	950  1550 950  1150
+Wire Wire Line
+	950  1150 950  1000
+Connection ~ 950  1150
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6167013E
+P 950 1000
+F 0 "#PWR?" H 950 850 50  0001 C CNN
+F 1 "+3V3" H 965 1173 50  0000 C CNN
+F 2 "" H 950 1000 50  0001 C CNN
+F 3 "" H 950 1000 50  0001 C CNN
+	1    950  1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1150 2150 1150
+Wire Wire Line
+	1750 1550 2500 1550
+Wire Wire Line
+	1750 1950 2850 1950
+$Comp
+L Device:R_Small R?
+U 1 1 616716D2
+P 2150 2200
+F 0 "R?" H 2209 2246 50  0000 L CNN
+F 1 "100k" H 2209 2155 50  0000 L CNN
+F 2 "" H 2150 2200 50  0001 C CNN
+F 3 "~" H 2150 2200 50  0001 C CNN
+	1    2150 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 616728EF
+P 2500 2200
+F 0 "R?" H 2559 2246 50  0000 L CNN
+F 1 "100k" H 2559 2155 50  0000 L CNN
+F 2 "" H 2500 2200 50  0001 C CNN
+F 3 "~" H 2500 2200 50  0001 C CNN
+	1    2500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61672E4B
+P 2850 2200
+F 0 "R?" H 2909 2246 50  0000 L CNN
+F 1 "100k" H 2909 2155 50  0000 L CNN
+F 2 "" H 2850 2200 50  0001 C CNN
+F 3 "~" H 2850 2200 50  0001 C CNN
+	1    2850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6167330B
+P 2850 2450
+F 0 "#PWR?" H 2850 2200 50  0001 C CNN
+F 1 "GND" H 2855 2277 50  0000 C CNN
+F 2 "" H 2850 2450 50  0001 C CNN
+F 3 "" H 2850 2450 50  0001 C CNN
+	1    2850 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2450 2850 2400
+Wire Wire Line
+	2850 2400 2500 2400
+Wire Wire Line
+	2150 2400 2150 2300
+Connection ~ 2850 2400
+Wire Wire Line
+	2850 2400 2850 2300
+Wire Wire Line
+	2500 2300 2500 2400
+Connection ~ 2500 2400
+Wire Wire Line
+	2500 2400 2150 2400
+Wire Wire Line
+	2150 2100 2150 1150
+Connection ~ 2150 1150
+Wire Wire Line
+	2150 1150 3300 1150
+Wire Wire Line
+	2500 2100 2500 1550
+Connection ~ 2500 1550
+Wire Wire Line
+	2500 1550 3300 1550
+Wire Wire Line
+	2850 2100 2850 1950
+Connection ~ 2850 1950
+Wire Wire Line
+	2850 1950 3300 1950
+Text Label 3300 1550 2    50   ~ 0
+A1
+Text Label 3300 1150 2    50   ~ 0
+A0
+Text Label 3300 1950 2    50   ~ 0
+A2
+Text Notes 850  700  0    99   ~ 0
+Stack position select
+Wire Wire Line
+	5300 2550 4800 2550
+Wire Wire Line
+	5300 2650 4800 2650
+Wire Wire Line
+	5300 2750 4800 2750
+Text Label 4800 2750 0    50   ~ 0
+A2
+Text Label 4800 2550 0    50   ~ 0
+A0
+Text Label 4800 2650 0    50   ~ 0
+A1
+$Comp
+L power:GND #PWR?
+U 1 1 616781CB
+P 5100 4350
+F 0 "#PWR?" H 5100 4100 50  0001 C CNN
+F 1 "GND" H 5105 4177 50  0000 C CNN
+F 2 "" H 5100 4350 50  0001 C CNN
+F 3 "" H 5100 4350 50  0001 C CNN
+	1    5100 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4350 5100 4150
+Wire Wire Line
+	5100 4150 5300 4150
+Wire Wire Line
+	4800 2350 5100 2350
+Wire Wire Line
+	5100 2350 5100 2250
+Connection ~ 5100 2350
+Wire Wire Line
+	5100 2350 5300 2350
+$Comp
+L Device:C_Small C?
+U 1 1 6167B02A
+P 5100 2150
+F 0 "C?" H 5192 2196 50  0000 L CNN
+F 1 "100n" H 5192 2105 50  0000 L CNN
+F 2 "" H 5100 2150 50  0001 C CNN
+F 3 "~" H 5100 2150 50  0001 C CNN
+	1    5100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6167B936
+P 5100 2000
+F 0 "#PWR?" H 5100 1750 50  0001 C CNN
+F 1 "GND" H 5105 1827 50  0000 C CNN
+F 2 "" H 5100 2000 50  0001 C CNN
+F 3 "" H 5100 2000 50  0001 C CNN
+	1    5100 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5100 2050 5100 2000
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6167C9DD
+P 4800 2350
+F 0 "#PWR?" H 4800 2200 50  0001 C CNN
+F 1 "+3V3" V 4815 2478 50  0000 L CNN
+F 2 "" H 4800 2350 50  0001 C CNN
+F 3 "" H 4800 2350 50  0001 C CNN
+	1    4800 2350
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
