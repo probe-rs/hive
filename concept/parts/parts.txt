@@ -24,6 +24,7 @@ ARM 10pin connector (keyed):
 	
 Status LED:
 	https://www.mouser.ch/ProductDetail/Kingbright/APFA2507LSURKSYKZGKC?qs=sGAEpiMZZMvyj6n1w4pZD6eAxfjFR14DQbRl3SGGWD7tDWKsfS49bQ%3D%3D
+	https://www.mouser.ch/ProductDetail/OSRAM-Opto-Semiconductors/KRTB-AILMS1-5B5C-B1B12-0-R18?qs=sGAEpiMZZMvyj6n1w4pZD%252Biw9X6akBOMlCYY%2F7kigJaMLELioIfADQ==
 
 Power OK LED:
 	https://www.mouser.ch/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D

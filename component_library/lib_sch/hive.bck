@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 150060VS75000
+D 2.4 V Green LED 1608 (0603) SMD, Wurth Elektronik WL-SMCW 150060VS75000
+F https://componentsearchengine.com/Datasheets/2/150060VS75000.pdf
+$ENDCMP
+#
 $CMP NCP1117DT33T5G
 F http://www.onsemi.com/pub/Collateral/NCP1117-D.PDF
 $ENDCMP
