@@ -254,14 +254,14 @@ $EndComp
 Text Notes 8350 4100 0    99   ~ 0
 Probe Shield Connector
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J?
+L Connector_Generic:Conn_02x13_Odd_Even J?
 U 1 1 61503ABF
-P 9200 4850
-F 0 "J?" H 9250 5467 50  0000 C CNN
-F 1 "probe shield connector 20pin" H 9250 5376 50  0000 C CNN
-F 2 "" H 9200 4850 50  0001 C CNN
-F 3 "~" H 9200 4850 50  0001 C CNN
-	1    9200 4850
+P 9200 5050
+F 0 "J?" H 9250 5900 50  0000 C CNN
+F 1 "probe shield connector 20 or 26pin" H 9250 5800 50  0000 C CNN
+F 2 "" H 9200 5050 50  0001 C CNN
+F 3 "~" H 9200 5050 50  0001 C CNN
+	1    9200 5050
 	1    0    0    -1  
 $EndComp
 Text Label 10100 4450 2    50   ~ 0
@@ -810,4 +810,60 @@ Wire Wire Line
 	3850 7450 4450 7450
 Text Notes 1200 2250 0    99   ~ 0
 Daughterboard Connector
+Wire Notes Line
+	9800 5800 8700 5800
+Wire Notes Line
+	8700 5800 8700 5400
+Wire Notes Line
+	8700 5400 9800 5400
+Wire Notes Line
+	9800 5400 9800 5800
+Wire Wire Line
+	9000 5450 8800 5450
+Wire Wire Line
+	8800 5450 8800 5550
+Wire Wire Line
+	8800 5750 9250 5750
+Wire Wire Line
+	9700 5750 9700 5650
+Wire Wire Line
+	9700 5450 9500 5450
+Wire Wire Line
+	9500 5550 9700 5550
+Connection ~ 9700 5550
+Wire Wire Line
+	9700 5550 9700 5450
+Wire Wire Line
+	9500 5650 9700 5650
+Connection ~ 9700 5650
+Wire Wire Line
+	9700 5650 9700 5550
+Wire Wire Line
+	9000 5550 8800 5550
+Connection ~ 8800 5550
+Wire Wire Line
+	8800 5550 8800 5650
+Wire Wire Line
+	9000 5650 8800 5650
+Connection ~ 8800 5650
+Wire Wire Line
+	8800 5650 8800 5750
+Wire Wire Line
+	9250 5750 9250 5900
+Connection ~ 9250 5750
+Wire Wire Line
+	9250 5750 9700 5750
+$Comp
+L power:GND #PWR?
+U 1 1 61589046
+P 9250 5900
+F 0 "#PWR?" H 9250 5650 50  0001 C CNN
+F 1 "GND" H 9255 5727 50  0000 C CNN
+F 2 "" H 9250 5900 50  0001 C CNN
+F 3 "" H 9250 5900 50  0001 C CNN
+	1    9250 5900
+	1    0    0    -1  
+$EndComp
+Text Notes 9850 5750 0    50   ~ 0
+Last 6 Pins are not required!\nYou may also use a 2x10pin \nconnector instead of a 2x13pin\nwith 2.54mm pitch
 $EndSCHEMATC
