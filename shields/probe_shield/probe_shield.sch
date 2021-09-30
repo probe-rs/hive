@@ -376,7 +376,7 @@ L Connector_Generic:Conn_02x13_Odd_Even J6
 U 1 1 614FAFB6
 P 8650 5200
 F 0 "J6" H 8700 6050 50  0000 C CNN
-F 1 "probe shield connector 20 or 26pin" H 8700 5950 50  0000 C CNN
+F 1 "probe shield connector 26pin" H 8700 5950 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical" H 8650 5200 50  0001 C CNN
 F 3 "~" H 8650 5200 50  0001 C CNN
 	1    8650 5200
@@ -497,8 +497,6 @@ NoConn ~ 8950 3200
 NoConn ~ 8950 3300
 NoConn ~ 8950 3400
 Wire Wire Line
-	8450 4600 7850 4600
-Wire Wire Line
 	8450 4700 7850 4700
 Wire Wire Line
 	8450 4800 7850 4800
@@ -506,38 +504,38 @@ Wire Wire Line
 	8450 4900 7850 4900
 Wire Wire Line
 	8450 5000 7850 5000
-Text Label 7850 4600 0    50   ~ 0
-TMS|SWDIO_0
-Text Label 7850 4700 0    50   ~ 0
-TCK|SWDCLK_0
-Text Label 7850 4800 0    50   ~ 0
-TDO|SWO_0
-Text Label 7850 4900 0    50   ~ 0
-TDI|NC_0
-Text Label 7850 5000 0    50   ~ 0
-RST_0
 Wire Wire Line
 	8450 5100 7850 5100
-Wire Wire Line
-	8450 5200 7850 5200
+Text Label 7850 4700 0    50   ~ 0
+TMS|SWDIO_0
+Text Label 7850 4800 0    50   ~ 0
+TCK|SWDCLK_0
+Text Label 7850 4900 0    50   ~ 0
+TDO|SWO_0
+Text Label 7850 5000 0    50   ~ 0
+TDI|NC_0
+Text Label 7850 5100 0    50   ~ 0
+RST_0
 Wire Wire Line
 	8450 5300 7850 5300
 Wire Wire Line
 	8450 5400 7850 5400
 Wire Wire Line
 	8450 5500 7850 5500
-Text Label 7850 5100 0    50   ~ 0
-TMS|SWDIO_2
-Text Label 7850 5200 0    50   ~ 0
-TCK|SWDCLK_2
-Text Label 7850 5300 0    50   ~ 0
-TDO|SWO_2
-Text Label 7850 5400 0    50   ~ 0
-TDI|NC_2
-Text Label 7850 5500 0    50   ~ 0
-RST_2
 Wire Wire Line
-	8950 4600 9550 4600
+	8450 5600 7850 5600
+Wire Wire Line
+	8450 5700 7850 5700
+Text Label 7850 5300 0    50   ~ 0
+TMS|SWDIO_2
+Text Label 7850 5400 0    50   ~ 0
+TCK|SWDCLK_2
+Text Label 7850 5500 0    50   ~ 0
+TDO|SWO_2
+Text Label 7850 5600 0    50   ~ 0
+TDI|NC_2
+Text Label 7850 5700 0    50   ~ 0
+RST_2
 Wire Wire Line
 	8950 4700 9550 4700
 Wire Wire Line
@@ -546,42 +544,44 @@ Wire Wire Line
 	8950 4900 9550 4900
 Wire Wire Line
 	8950 5000 9550 5000
-Text Label 9550 4600 2    50   ~ 0
-TMS|SWDIO_1
-Text Label 9550 4700 2    50   ~ 0
-TCK|SWDCLK_1
-Text Label 9550 4800 2    50   ~ 0
-TDO|SWO_1
-Text Label 9550 4900 2    50   ~ 0
-TDI|NC_1
-Text Label 9550 5000 2    50   ~ 0
-RST_1
 Wire Wire Line
 	8950 5100 9550 5100
-Wire Wire Line
-	8950 5200 9550 5200
+Text Label 9550 4700 2    50   ~ 0
+TMS|SWDIO_1
+Text Label 9550 4800 2    50   ~ 0
+TCK|SWDCLK_1
+Text Label 9550 4900 2    50   ~ 0
+TDO|SWO_1
+Text Label 9550 5000 2    50   ~ 0
+TDI|NC_1
+Text Label 9550 5100 2    50   ~ 0
+RST_1
 Wire Wire Line
 	8950 5300 9550 5300
 Wire Wire Line
 	8950 5400 9550 5400
 Wire Wire Line
 	8950 5500 9550 5500
-Text Label 9550 5100 2    50   ~ 0
-TMS|SWDIO_3
-Text Label 9550 5200 2    50   ~ 0
-TCK|SWDCLK_3
+Wire Wire Line
+	8950 5600 9550 5600
+Wire Wire Line
+	8950 5700 9550 5700
 Text Label 9550 5300 2    50   ~ 0
-TDO|SWO_3
+TMS|SWDIO_3
 Text Label 9550 5400 2    50   ~ 0
-TDI|NC_3
+TCK|SWDCLK_3
 Text Label 9550 5500 2    50   ~ 0
+TDO|SWO_3
+Text Label 9550 5600 2    50   ~ 0
+TDI|NC_3
+Text Label 9550 5700 2    50   ~ 0
 RST_3
 $Comp
 L Device:R_Small R1
 U 1 1 61575DED
 P 5500 1400
 F 0 "R1" H 5559 1446 50  0000 L CNN
-F 1 "65" H 5559 1355 50  0000 L CNN
+F 1 "195" H 5559 1355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5500 1400 50  0001 C CNN
 F 3 "~" H 5500 1400 50  0001 C CNN
 	1    5500 1400
@@ -710,62 +710,6 @@ Connection ~ 1200 4200
 Wire Wire Line
 	1200 3300 1200 3250
 Connection ~ 1200 3250
-Wire Wire Line
-	8450 5600 8300 5600
-Wire Wire Line
-	8300 5600 8300 5700
-Wire Wire Line
-	8300 5950 8700 5950
-Wire Wire Line
-	9100 5950 9100 5800
-Wire Wire Line
-	9100 5600 8950 5600
-Wire Wire Line
-	8950 5700 9100 5700
-Connection ~ 9100 5700
-Wire Wire Line
-	9100 5700 9100 5600
-Wire Wire Line
-	8950 5800 9100 5800
-Connection ~ 9100 5800
-Wire Wire Line
-	9100 5800 9100 5700
-Wire Wire Line
-	8450 5700 8300 5700
-Connection ~ 8300 5700
-Wire Wire Line
-	8300 5700 8300 5800
-Wire Wire Line
-	8450 5800 8300 5800
-Connection ~ 8300 5800
-Wire Wire Line
-	8300 5800 8300 5950
-$Comp
-L power:GND #PWR013
-U 1 1 6155CE20
-P 8700 6050
-F 0 "#PWR013" H 8700 5800 50  0001 C CNN
-F 1 "GND" H 8705 5877 50  0000 C CNN
-F 2 "" H 8700 6050 50  0001 C CNN
-F 3 "" H 8700 6050 50  0001 C CNN
-	1    8700 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 6050 8700 5950
-Connection ~ 8700 5950
-Wire Wire Line
-	8700 5950 9100 5950
-Wire Notes Line
-	8150 6000 8150 5550
-Wire Notes Line
-	8150 5550 9250 5550
-Wire Notes Line
-	9250 5550 9250 6000
-Wire Notes Line
-	8150 6000 9250 6000
-Text Notes 9350 5850 0    50   ~ 0
-Last 6 Pins are not required!\nYou may also use a 2x10pin connector \ninstead of a 2x13pin with 2.54mm pitch
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 615A2732
@@ -863,4 +807,82 @@ F 3 "" H 900 1950 50  0001 C CNN
 	1    900  1950
 	0    -1   -1   0   
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6158CD45
+P 7750 4600
+F 0 "#PWR?" H 7750 4350 50  0001 C CNN
+F 1 "GND" V 7750 4400 50  0000 C CNN
+F 2 "" H 7750 4600 50  0001 C CNN
+F 3 "" H 7750 4600 50  0001 C CNN
+	1    7750 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 4600 7750 4600
+$Comp
+L power:GND #PWR?
+U 1 1 61593F46
+P 7750 5200
+F 0 "#PWR?" H 7750 4950 50  0001 C CNN
+F 1 "GND" V 7750 5000 50  0000 C CNN
+F 2 "" H 7750 5200 50  0001 C CNN
+F 3 "" H 7750 5200 50  0001 C CNN
+	1    7750 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 5200 7750 5200
+$Comp
+L power:GND #PWR?
+U 1 1 61598641
+P 7750 5800
+F 0 "#PWR?" H 7750 5550 50  0001 C CNN
+F 1 "GND" V 7750 5600 50  0000 C CNN
+F 2 "" H 7750 5800 50  0001 C CNN
+F 3 "" H 7750 5800 50  0001 C CNN
+	1    7750 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 5800 7750 5800
+$Comp
+L power:GND #PWR?
+U 1 1 6159D4B7
+P 9650 5800
+F 0 "#PWR?" H 9650 5550 50  0001 C CNN
+F 1 "GND" V 9650 5600 50  0000 C CNN
+F 2 "" H 9650 5800 50  0001 C CNN
+F 3 "" H 9650 5800 50  0001 C CNN
+	1    9650 5800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8950 5800 9650 5800
+$Comp
+L power:GND #PWR?
+U 1 1 615A1DEC
+P 9650 5200
+F 0 "#PWR?" H 9650 4950 50  0001 C CNN
+F 1 "GND" V 9650 5000 50  0000 C CNN
+F 2 "" H 9650 5200 50  0001 C CNN
+F 3 "" H 9650 5200 50  0001 C CNN
+	1    9650 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8950 5200 9650 5200
+$Comp
+L power:GND #PWR?
+U 1 1 615A63BC
+P 9650 4600
+F 0 "#PWR?" H 9650 4350 50  0001 C CNN
+F 1 "GND" V 9650 4400 50  0000 C CNN
+F 2 "" H 9650 4600 50  0001 C CNN
+F 3 "" H 9650 4600 50  0001 C CNN
+	1    9650 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8950 4600 9650 4600
 $EndSCHEMATC

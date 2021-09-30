@@ -5,6 +5,10 @@ D 2.4 V Green LED 1608 (0603) SMD, Wurth Elektronik WL-SMCW 150060VS75000
 F https://componentsearchengine.com/Datasheets/2/150060VS75000.pdf
 $ENDCMP
 #
+$CMP KRTB_AILMS1-5B5C-B1B12-0-R18
+D OSRAM OPTO SEMICONDUCTORS - KRTB AILMS1-5B5C-B1B12-0-R18 - LED, Red, Green, Blue, SMD, 120 , Rectangular, R 20mA, G 20mA, B 20mA
+$ENDCMP
+#
 $CMP NCP1117DT33T5G
 F http://www.onsemi.com/pub/Collateral/NCP1117-D.PDF
 $ENDCMP
