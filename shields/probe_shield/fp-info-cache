@@ -1,4 +1,4 @@
-16952588895031987
+16954221892398639
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75291,6 +75291,13 @@ SAMTEC_FTSH-105-01-F-DV-007
 0
 9
 9
+hive
+SAMTEC_PCIE-064-02-X-D-RA
+
+
+0
+64
+64
 hive
 SOP50P810X120-56N
 
