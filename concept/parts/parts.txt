@@ -13,6 +13,9 @@ PCB Pins/Receptacles for Rpi & Probe Bus:
 	SSM-120-F/L-DV (40Pin)
 	SSM-110-F/L-DV (20Pin)
 
+Probe bus 23pin receptacle for probe shield:
+	TSW-113-07-F/L/G-D
+
 PCIE x4 64pin angled:
 	https://www.mouser.ch/ProductDetail/Samtec/PCIE-064-02-F-D-RA?qs=%2Fha2pyFaduhE9skzL9IpvNsrW0zxqexjG2fd60yobxGx5MyGxebw9Hc9j7faRraV
 
