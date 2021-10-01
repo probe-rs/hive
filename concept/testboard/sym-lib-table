@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name hive)(type Legacy)(uri ${KIPRJMOD}/../../component_library/lib_sch/hive.lib)(options "")(descr ""))
+  (lib (name testboard-rescue)(type Legacy)(uri ${KIPRJMOD}/testboard-rescue.lib)(options "")(descr ""))
 )
