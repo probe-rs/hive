@@ -1,4 +1,4 @@
-16954221891868418
+16955857904723118
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -68662,20 +68662,6 @@ rotary encoder
 0
 5
 4
-SamacSys_Parts
-KRTBAILMS15B5CB1B120R18
-KRTB AILMS1-5B5C-B1B12-0-R18-4
-LED
-0
-6
-6
-SamacSys_Parts
-LEDC1608X80N
-150060GS75000
-LED
-0
-2
-2
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -75284,6 +75270,27 @@ LED
 0
 2
 2
+hive
+PinHeader_2x13_P2.54mm_Vertical_probe_shield
+Through hole straight pin header, 2x13, 2.54mm pitch, double rows
+Through hole pin header THT 2x13 2.54mm double row
+0
+26
+26
+hive
+PinHeader_2x13_P2.54mm_Vertical_probe_shield_male
+Through hole straight pin header, 2x13, 2.54mm pitch, double rows
+Through hole pin header THT 2x13 2.54mm double row
+0
+26
+26
+hive
+PinHeader_2x20_P2.54mm_Vertical_gpio_shield
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+40
+40
 hive
 SAMTEC_FTSH-105-01-F-DV-007
 

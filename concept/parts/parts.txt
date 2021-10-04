@@ -47,3 +47,6 @@ Rotary DIP Switch:
 LDO 3.3V:
 	https://www.mouser.ch/ProductDetail/onsemi/NCP1117DT33T5G?qs=Gev%252BmEvV0ibY9yFNc3ZYyw%3D%3D (1A, 1.2V dropout)
 	https://www.mouser.ch/ProductDetail/Diodes-Incorporated/AZ1117CR-33TRG1?qs=FKu9oBikfSlEg7waHw2tMw%3D%3D (800mA, 1.3V dropout)
+	
+Condensator 10uF:
+	https://www.mouser.ch/ProductDetail/Taiyo-Yuden/LMK212ABJ106MG-T?qs=sGAEpiMZZMuMW9TJLBQkXuNc91JREux4KDhNenfyhOQ=
