@@ -539,24 +539,24 @@ F 3 "" H 8400 4200 50  0001 C CNN
 	1    8400 4200
 	1    0    0    -1  
 $EndComp
-Text HLabel 8700 2550 2    50   Output ~ 0
+Text HLabel 8700 3250 2    50   Output ~ 0
 BUS_SW_CH0
 Connection ~ 7200 2750
 Wire Wire Line
 	7200 2750 8700 2750
-Text HLabel 8700 2650 2    50   Output ~ 0
-BUS_SW_CH1
-Text HLabel 8700 2750 2    50   Output ~ 0
-BUS_SW_CH2
-Text HLabel 8700 2850 2    50   Output ~ 0
-BUS_SW_CH3
-Text HLabel 8700 2950 2    50   Output ~ 0
-TARGET_SW_CH0
-Text HLabel 8700 3050 2    50   Output ~ 0
-TARGET_SW_CH1
 Text HLabel 8700 3150 2    50   Output ~ 0
+BUS_SW_CH1
+Text HLabel 8700 3050 2    50   Output ~ 0
+BUS_SW_CH2
+Text HLabel 8700 2950 2    50   Output ~ 0
+BUS_SW_CH3
+Text HLabel 8700 2850 2    50   Output ~ 0
+TARGET_SW_CH0
+Text HLabel 8700 2750 2    50   Output ~ 0
+TARGET_SW_CH1
+Text HLabel 8700 2650 2    50   Output ~ 0
 TARGET_SW_CH2
-Text HLabel 8700 3250 2    50   Output ~ 0
+Text HLabel 8700 2550 2    50   Output ~ 0
 TARGET_SW_CH3
 Wire Wire Line
 	5300 3550 4400 3550

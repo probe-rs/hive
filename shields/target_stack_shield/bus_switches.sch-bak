@@ -781,27 +781,27 @@ Wire Wire Line
 	3700 2100 3150 2100
 Text Label 3150 2100 0    50   ~ 0
 BUS_SW_CH3
-Text HLabel 9750 3100 2    50   BiDi ~ 0
+Text HLabel 9750 1800 2    50   BiDi ~ 0
 TGT_TMS|SWDIO_0
-Text HLabel 9750 3200 2    50   Output ~ 0
+Text HLabel 9750 1900 2    50   Output ~ 0
 TGT_TCK|SWDCLK_0
-Text HLabel 9750 3400 2    50   Output ~ 0
+Text HLabel 9750 2100 2    50   Output ~ 0
 TGT_TDI|NC_0
-Text HLabel 9750 3300 2    50   Input ~ 0
+Text HLabel 9750 2000 2    50   Input ~ 0
 TGT_TDO|SWO_0
-Text HLabel 9750 3500 2    50   Output ~ 0
+Text HLabel 9750 2200 2    50   Output ~ 0
 TGT_RST_0
-Text HLabel 9750 3600 2    50   BiDi ~ 0
+Text HLabel 9750 2300 2    50   BiDi ~ 0
 TGT_GPIO0.0
-Text HLabel 9750 3700 2    50   BiDi ~ 0
+Text HLabel 9750 2400 2    50   BiDi ~ 0
 TGT_GPIO0.1
-Text HLabel 9750 3800 2    50   BiDi ~ 0
+Text HLabel 9750 2500 2    50   BiDi ~ 0
 TGT_GPIO0.2
-Text HLabel 9750 3900 2    50   BiDi ~ 0
+Text HLabel 9750 2600 2    50   BiDi ~ 0
 TGT_GPIO0.3
-Text HLabel 9750 4000 2    50   BiDi ~ 0
+Text HLabel 9750 2700 2    50   BiDi ~ 0
 TGT_UART_TxD0
-Text HLabel 9750 4100 2    50   BiDi ~ 0
+Text HLabel 9750 2800 2    50   BiDi ~ 0
 TGT_UART_RxD0
 $Comp
 L power:GND #PWR0139
@@ -814,27 +814,27 @@ F 3 "" H 9750 4200 50  0001 C CNN
 	1    9750 4200
 	0    -1   1    0   
 $EndComp
-Text HLabel 9750 1800 2    50   BiDi ~ 0
+Text HLabel 9750 3100 2    50   BiDi ~ 0
 TGT_TMS|SWDIO_1
-Text HLabel 9750 1900 2    50   Output ~ 0
+Text HLabel 9750 3200 2    50   Output ~ 0
 TGT_TCK|SWDCLK_1
-Text HLabel 9750 2000 2    50   Input ~ 0
+Text HLabel 9750 3300 2    50   Input ~ 0
 TGT_TDO|SWO_1
-Text HLabel 9750 2100 2    50   Output ~ 0
+Text HLabel 9750 3400 2    50   Output ~ 0
 TGT_TDI|NC_1
-Text HLabel 9750 2200 2    50   Output ~ 0
+Text HLabel 9750 3500 2    50   Output ~ 0
 TGT_RST_1
-Text HLabel 9750 2300 2    50   BiDi ~ 0
+Text HLabel 9750 3600 2    50   BiDi ~ 0
 TGT_GPIO1.0
-Text HLabel 9750 2400 2    50   BiDi ~ 0
+Text HLabel 9750 3700 2    50   BiDi ~ 0
 TGT_GPIO1.1
-Text HLabel 9750 2500 2    50   BiDi ~ 0
+Text HLabel 9750 3800 2    50   BiDi ~ 0
 TGT_GPIO1.2
-Text HLabel 9750 2600 2    50   BiDi ~ 0
+Text HLabel 9750 3900 2    50   BiDi ~ 0
 TGT_GPIO1.3
-Text HLabel 9750 2700 2    50   BiDi ~ 0
+Text HLabel 9750 4000 2    50   BiDi ~ 0
 TGT_UART_TxD1
-Text HLabel 9750 2800 2    50   BiDi ~ 0
+Text HLabel 9750 4100 2    50   BiDi ~ 0
 TGT_UART_RxD1
 $Comp
 L power:GND #PWR0140
@@ -858,27 +858,27 @@ F 3 "" H 9750 9050 50  0001 C CNN
 	1    9750 9050
 	0    -1   1    0   
 $EndComp
-Text HLabel 9750 8950 2    50   BiDi ~ 0
+Text HLabel 9750 7650 2    50   BiDi ~ 0
 TGT_UART_RxD2
-Text HLabel 9750 8850 2    50   BiDi ~ 0
+Text HLabel 9750 7550 2    50   BiDi ~ 0
 TGT_UART_TxD2
-Text HLabel 9750 8750 2    50   BiDi ~ 0
+Text HLabel 9750 7450 2    50   BiDi ~ 0
 TGT_GPIO2.3
-Text HLabel 9750 8650 2    50   BiDi ~ 0
+Text HLabel 9750 7350 2    50   BiDi ~ 0
 TGT_GPIO2.2
-Text HLabel 9750 8550 2    50   BiDi ~ 0
+Text HLabel 9750 7250 2    50   BiDi ~ 0
 TGT_GPIO2.1
-Text HLabel 9750 8450 2    50   BiDi ~ 0
+Text HLabel 9750 7150 2    50   BiDi ~ 0
 TGT_GPIO2.0
-Text HLabel 9750 8350 2    50   Output ~ 0
+Text HLabel 9750 7050 2    50   Output ~ 0
 TGT_RST_2
-Text HLabel 9750 8250 2    50   Output ~ 0
+Text HLabel 9750 6950 2    50   Output ~ 0
 TGT_TDI|NC_2
-Text HLabel 9750 8150 2    50   Input ~ 0
+Text HLabel 9750 6850 2    50   Input ~ 0
 TGT_TDO|SWO_2
-Text HLabel 9750 8050 2    50   Output ~ 0
+Text HLabel 9750 6750 2    50   Output ~ 0
 TGT_TCK|SWDCLK_2
-Text HLabel 9750 7950 2    50   BiDi ~ 0
+Text HLabel 9750 6650 2    50   BiDi ~ 0
 TGT_TMS|SWDIO_2
 $Comp
 L power:GND #PWR0142
@@ -891,27 +891,27 @@ F 3 "" H 9750 7750 50  0001 C CNN
 	1    9750 7750
 	0    -1   1    0   
 $EndComp
-Text HLabel 9750 7650 2    50   BiDi ~ 0
+Text HLabel 9750 8950 2    50   BiDi ~ 0
 TGT_UART_RxD3
-Text HLabel 9750 7550 2    50   BiDi ~ 0
+Text HLabel 9750 8850 2    50   BiDi ~ 0
 TGT_UART_TxD3
-Text HLabel 9750 7450 2    50   BiDi ~ 0
+Text HLabel 9750 8750 2    50   BiDi ~ 0
 TGT_GPIO3.3
-Text HLabel 9750 7350 2    50   BiDi ~ 0
+Text HLabel 9750 8650 2    50   BiDi ~ 0
 TGT_GPIO3.2
-Text HLabel 9750 7250 2    50   BiDi ~ 0
+Text HLabel 9750 8550 2    50   BiDi ~ 0
 TGT_GPIO3.1
-Text HLabel 9750 7150 2    50   BiDi ~ 0
+Text HLabel 9750 8450 2    50   BiDi ~ 0
 TGT_GPIO3.0
-Text HLabel 9750 7050 2    50   Output ~ 0
+Text HLabel 9750 8350 2    50   Output ~ 0
 TGT_RST_3
-Text HLabel 9750 6950 2    50   Output ~ 0
+Text HLabel 9750 8250 2    50   Output ~ 0
 TGT_TDI|NC_3
-Text HLabel 9750 6850 2    50   Input ~ 0
+Text HLabel 9750 8150 2    50   Input ~ 0
 TGT_TDO|SWO_3
-Text HLabel 9750 6750 2    50   Output ~ 0
+Text HLabel 9750 8050 2    50   Output ~ 0
 TGT_TCK|SWDCLK_3
-Text HLabel 9750 6650 2    50   BiDi ~ 0
+Text HLabel 9750 7950 2    50   BiDi ~ 0
 TGT_TMS|SWDIO_3
 Text HLabel 14250 5500 2    50   Input ~ 0
 BOARD_DETECT
@@ -975,20 +975,20 @@ Wire Wire Line
 Text Label 14550 6450 2    50   ~ 0
 BUS_SW_CH3
 Wire Wire Line
-	8350 2200 7700 2200
-Text Label 7700 2200 0    50   ~ 0
-TARGET_SW_CH0
-Wire Wire Line
 	8350 2100 7700 2100
 Text Label 7700 2100 0    50   ~ 0
-TARGET_SW_CH1
+TARGET_SW_CH0
 Wire Wire Line
-	8350 7050 7700 7050
-Text Label 7700 7050 0    50   ~ 0
-TARGET_SW_CH2
+	8350 2200 7700 2200
+Text Label 7700 2200 0    50   ~ 0
+TARGET_SW_CH1
 Wire Wire Line
 	8350 6950 7700 6950
 Text Label 7700 6950 0    50   ~ 0
+TARGET_SW_CH2
+Wire Wire Line
+	8350 7050 7700 7050
+Text Label 7700 7050 0    50   ~ 0
 TARGET_SW_CH3
 Wire Wire Line
 	5100 1800 5750 1800
