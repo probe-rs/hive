@@ -932,48 +932,42 @@ Text Label 7450 2950 0    50   ~ 0
 TGT_UART_RxD0
 Wire Wire Line
 	7450 2950 8250 2950
-Text Label 1950 4850 0    50   ~ 0
+Text Label 1950 4450 0    50   ~ 0
 TGT_TMS|SWDIO_0
-Text Label 1950 4750 0    50   ~ 0
+Text Label 1950 4350 0    50   ~ 0
 TGT_TCK|SWDCLK_0
-Text Label 1950 4950 0    50   ~ 0
+Text Label 1950 4250 0    50   ~ 0
 TGT_TDO|SWO_0
-Text Label 1950 5050 0    50   ~ 0
+Text Label 1950 4150 0    50   ~ 0
 TGT_TDI|NC_0
-Text Label 1950 5150 0    50   ~ 0
+Text Label 1950 4050 0    50   ~ 0
 TGT_RST_0
 Wire Wire Line
-	2750 4850 1950 4850
+	2750 4450 1950 4450
 Wire Wire Line
-	2750 4750 1950 4750
+	2750 4350 1950 4350
 Wire Wire Line
-	2750 4950 1950 4950
+	2750 4250 1950 4250
 Wire Wire Line
-	2750 5050 1950 5050
+	2750 4150 1950 4150
 Wire Wire Line
-	2750 5150 1950 5150
-Text Label 1950 4250 0    50   ~ 0
+	2750 4050 1950 4050
+Text Label 1950 4650 0    50   ~ 0
 TGT_GPIO0.0
 Wire Wire Line
-	1950 4250 2750 4250
-Text Label 1950 4350 0    50   ~ 0
+	1950 4650 2750 4650
+Text Label 1950 4750 0    50   ~ 0
 TGT_GPIO0.1
 Wire Wire Line
-	1950 4350 2750 4350
-Text Label 1950 4450 0    50   ~ 0
+	1950 4750 2750 4750
+Text Label 1950 4850 0    50   ~ 0
 TGT_GPIO0.2
 Wire Wire Line
-	1950 4450 2750 4450
-Text Label 1950 4550 0    50   ~ 0
+	1950 4850 2750 4850
+Text Label 1950 4950 0    50   ~ 0
 TGT_GPIO0.3
 Wire Wire Line
-	1950 4550 2750 4550
-Text Label 1950 4050 0    50   ~ 0
-TGT_UART_TxD0
-Wire Wire Line
-	1950 4050 2750 4050
-Text Label 1950 4150 0    50   ~ 0
-TGT_UART_RxD0
+	1950 4950 2750 4950
 Wire Wire Line
 	1950 3850 2750 3850
 Wire Wire Line
@@ -1055,16 +1049,16 @@ F 3 "" H 1950 6550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1950 5950 2750 5950
+	1950 5850 2750 5850
 $Comp
 L power:GND #PWR07
 U 1 1 61CCE621
-P 1950 5950
-F 0 "#PWR07" H 1950 5700 50  0001 C CNN
-F 1 "GND" V 1950 5750 50  0000 C CNN
-F 2 "" H 1950 5950 50  0001 C CNN
-F 3 "" H 1950 5950 50  0001 C CNN
-	1    1950 5950
+P 1950 5850
+F 0 "#PWR07" H 1950 5600 50  0001 C CNN
+F 1 "GND" V 1950 5650 50  0000 C CNN
+F 2 "" H 1950 5850 50  0001 C CNN
+F 3 "" H 1950 5850 50  0001 C CNN
+	1    1950 5850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1081,16 +1075,16 @@ F 3 "" H 1950 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1950 4650 2750 4650
+	1950 4550 2750 4550
 $Comp
 L power:GND #PWR05
 U 1 1 61D03625
-P 1950 4650
-F 0 "#PWR05" H 1950 4400 50  0001 C CNN
-F 1 "GND" V 1950 4450 50  0000 C CNN
-F 2 "" H 1950 4650 50  0001 C CNN
-F 3 "" H 1950 4650 50  0001 C CNN
-	1    1950 4650
+P 1950 4550
+F 0 "#PWR05" H 1950 4300 50  0001 C CNN
+F 1 "GND" V 1950 4350 50  0000 C CNN
+F 2 "" H 1950 4550 50  0001 C CNN
+F 3 "" H 1950 4550 50  0001 C CNN
+	1    1950 4550
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1112,52 +1106,50 @@ Text Label 7650 7000 0    50   ~ 0
 BOARD_DETECT
 Text Label 1950 3850 0    50   ~ 0
 BOARD_DETECT
-Wire Wire Line
-	1950 4150 2750 4150
-Text Label 1950 6150 0    50   ~ 0
+Text Label 1950 5750 0    50   ~ 0
 TGT_TMS|SWDIO_2
-Text Label 1950 6050 0    50   ~ 0
+Text Label 1950 5650 0    50   ~ 0
 TGT_TCK|SWDCLK_2
-Text Label 1950 6250 0    50   ~ 0
+Text Label 1950 5550 0    50   ~ 0
 TGT_TDO|SWO_2
-Text Label 1950 6350 0    50   ~ 0
+Text Label 1950 5450 0    50   ~ 0
 TGT_TDI|NC_2
-Text Label 1950 6450 0    50   ~ 0
+Text Label 1950 5350 0    50   ~ 0
 TGT_RST_2
 Wire Wire Line
-	2750 6150 1950 6150
+	2750 5750 1950 5750
 Wire Wire Line
-	2750 6050 1950 6050
+	2750 5650 1950 5650
 Wire Wire Line
-	2750 6250 1950 6250
+	2750 5550 1950 5550
 Wire Wire Line
-	2750 6350 1950 6350
+	2750 5450 1950 5450
 Wire Wire Line
-	2750 6450 1950 6450
-Text Label 1950 5550 0    50   ~ 0
+	2750 5350 1950 5350
+Text Label 1950 5950 0    50   ~ 0
 TGT_GPIO2.0
 Wire Wire Line
-	1950 5550 2750 5550
-Text Label 1950 5650 0    50   ~ 0
+	1950 5950 2750 5950
+Text Label 1950 6050 0    50   ~ 0
 TGT_GPIO2.1
 Wire Wire Line
-	1950 5650 2750 5650
-Text Label 1950 5750 0    50   ~ 0
+	1950 6050 2750 6050
+Text Label 1950 6150 0    50   ~ 0
 TGT_GPIO2.2
 Wire Wire Line
-	1950 5750 2750 5750
-Text Label 1950 5850 0    50   ~ 0
+	1950 6150 2750 6150
+Text Label 1950 6250 0    50   ~ 0
 TGT_GPIO2.3
 Wire Wire Line
-	1950 5850 2750 5850
-Text Label 1950 5350 0    50   ~ 0
+	1950 6250 2750 6250
+Text Label 1950 6350 0    50   ~ 0
 TGT_UART_TxD2
 Wire Wire Line
-	1950 5350 2750 5350
-Text Label 1950 5450 0    50   ~ 0
+	1950 6350 2750 6350
+Text Label 1950 6450 0    50   ~ 0
 TGT_UART_RxD2
 Wire Wire Line
-	1950 5450 2750 5450
+	1950 6450 2750 6450
 Text Notes 8500 1350 0    99   ~ 0
 Bus Switches
 Text Label 7450 5550 0    50   ~ 0
@@ -1248,9 +1240,9 @@ Text Label 7450 4150 0    50   ~ 0
 TGT_UART_RxD1
 Wire Wire Line
 	7450 4150 8250 4150
-Text Label 4550 4850 2    50   ~ 0
-TGT_TMS|SWDIO_1
 Text Label 4550 4750 2    50   ~ 0
+TGT_TMS|SWDIO_1
+Text Label 4550 4850 2    50   ~ 0
 TGT_TCK|SWDCLK_1
 Text Label 4550 4950 2    50   ~ 0
 TGT_TDO|SWO_1
@@ -1259,42 +1251,42 @@ TGT_TDI|NC_1
 Text Label 4550 5150 2    50   ~ 0
 TGT_RST_1
 Wire Wire Line
-	3750 4850 4550 4850
-Wire Wire Line
 	3750 4750 4550 4750
+Wire Wire Line
+	3750 4850 4550 4850
 Wire Wire Line
 	3750 4950 4550 4950
 Wire Wire Line
 	3750 5050 4550 5050
 Wire Wire Line
 	3750 5150 4550 5150
-Text Label 4550 4250 2    50   ~ 0
+Text Label 4550 4550 2    50   ~ 0
 TGT_GPIO1.0
 Wire Wire Line
-	4550 4250 3750 4250
-Text Label 4550 4350 2    50   ~ 0
+	4550 4550 3750 4550
+Text Label 4550 4450 2    50   ~ 0
 TGT_GPIO1.1
 Wire Wire Line
-	4550 4350 3750 4350
-Text Label 4550 4450 2    50   ~ 0
+	4550 4450 3750 4450
+Text Label 4550 4350 2    50   ~ 0
 TGT_GPIO1.2
 Wire Wire Line
-	4550 4450 3750 4450
-Text Label 4550 4550 2    50   ~ 0
+	4550 4350 3750 4350
+Text Label 4550 4250 2    50   ~ 0
 TGT_GPIO1.3
 Wire Wire Line
-	4550 4550 3750 4550
-Text Label 4550 4050 2    50   ~ 0
+	4550 4250 3750 4250
+Text Label 4550 4150 2    50   ~ 0
 TGT_UART_TxD1
 Wire Wire Line
-	4550 4050 3750 4050
-Text Label 4550 4150 2    50   ~ 0
+	4550 4150 3750 4150
+Text Label 4550 4050 2    50   ~ 0
 TGT_UART_RxD1
 Wire Wire Line
-	4550 4150 3750 4150
-Text Label 4550 6150 2    50   ~ 0
-TGT_TMS|SWDIO_3
+	4550 4050 3750 4050
 Text Label 4550 6050 2    50   ~ 0
+TGT_TMS|SWDIO_3
+Text Label 4550 6150 2    50   ~ 0
 TGT_TCK|SWDCLK_3
 Text Label 4550 6250 2    50   ~ 0
 TGT_TDO|SWO_3
@@ -1303,9 +1295,9 @@ TGT_TDI|NC_3
 Text Label 4550 6450 2    50   ~ 0
 TGT_RST_3
 Wire Wire Line
-	3750 6150 4550 6150
-Wire Wire Line
 	3750 6050 4550 6050
+Wire Wire Line
+	3750 6150 4550 6150
 Wire Wire Line
 	3750 6250 4550 6250
 Wire Wire Line
@@ -1313,28 +1305,28 @@ Wire Wire Line
 Wire Wire Line
 	3750 6450 4550 6450
 Wire Wire Line
-	4550 5550 3750 5550
-Text Label 4550 5650 2    50   ~ 0
+	4550 5850 3750 5850
+Text Label 4550 5750 2    50   ~ 0
 TGT_GPIO3.1
 Wire Wire Line
-	4550 5650 3750 5650
-Text Label 4550 5750 2    50   ~ 0
+	4550 5750 3750 5750
+Text Label 4550 5650 2    50   ~ 0
 TGT_GPIO3.2
 Wire Wire Line
-	4550 5750 3750 5750
-Text Label 4550 5850 2    50   ~ 0
+	4550 5650 3750 5650
+Text Label 4550 5550 2    50   ~ 0
 TGT_GPIO3.3
 Wire Wire Line
-	4550 5850 3750 5850
-Text Label 4550 5350 2    50   ~ 0
+	4550 5550 3750 5550
+Text Label 4550 5450 2    50   ~ 0
 TGT_UART_TxD3
 Wire Wire Line
-	4550 5350 3750 5350
-Text Label 4550 5450 2    50   ~ 0
+	4550 5450 3750 5450
+Text Label 4550 5350 2    50   ~ 0
 TGT_UART_RxD3
 Wire Wire Line
-	4550 5450 3750 5450
-Text Label 4550 5550 2    50   ~ 0
+	4550 5350 3750 5350
+Text Label 4550 5850 2    50   ~ 0
 TGT_GPIO3.0
 Wire Wire Line
 	1950 3650 2350 3650
@@ -1497,4 +1489,12 @@ Wire Wire Line
 Connection ~ 900  1600
 Wire Wire Line
 	900  1600 900  1400
+Wire Wire Line
+	1950 5150 2750 5150
+Text Label 1950 5150 0    50   ~ 0
+TGT_UART_RxD0
+Wire Wire Line
+	1950 5050 2750 5050
+Text Label 1950 5050 0    50   ~ 0
+TGT_UART_TxD0
 $EndSCHEMATC

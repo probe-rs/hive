@@ -666,27 +666,27 @@ F 3 "" H 8350 9650 50  0001 C CNN
 	1    8350 9650
 	0    1    -1   0   
 $EndComp
-Text Label 7700 7250 0    50   ~ 0
+Text Label 7700 8250 0    50   ~ 0
 BUS_RST
-Text Label 7700 7650 0    50   ~ 0
+Text Label 7700 7850 0    50   ~ 0
 BUS_TMS|SWDIO
-Text Label 7700 7550 0    50   ~ 0
+Text Label 7700 7950 0    50   ~ 0
 BUS_TCK|SWDCLK
-Text Label 7700 7450 0    50   ~ 0
+Text Label 7700 8050 0    50   ~ 0
 BUS_TDO|SWO
-Text Label 7700 7350 0    50   ~ 0
+Text Label 7700 8150 0    50   ~ 0
 BUS_TDI|NC
 Text Label 7700 7750 0    50   ~ 0
 BUS_GPIO0
-Text Label 7700 7850 0    50   ~ 0
+Text Label 7700 7650 0    50   ~ 0
 BUS_GPIO1
-Text Label 7700 7950 0    50   ~ 0
+Text Label 7700 7550 0    50   ~ 0
 BUS_GPIO2
-Text Label 7700 8050 0    50   ~ 0
+Text Label 7700 7450 0    50   ~ 0
 BUS_GPIO3
-Text Label 7700 8150 0    50   ~ 0
+Text Label 7700 7350 0    50   ~ 0
 BUS_UART_TxD
-Text Label 7700 8250 0    50   ~ 0
+Text Label 7700 7250 0    50   ~ 0
 BUS_UART_RxD
 $Comp
 L power:GND #PWR0136
@@ -732,27 +732,27 @@ F 3 "" H 8350 4800 50  0001 C CNN
 	1    8350 4800
 	0    1    -1   0   
 $EndComp
-Text Label 7700 2400 0    50   ~ 0
+Text Label 7700 3400 0    50   ~ 0
 BUS_RST
-Text Label 7700 2800 0    50   ~ 0
+Text Label 7700 3000 0    50   ~ 0
 BUS_TMS|SWDIO
-Text Label 7700 2700 0    50   ~ 0
+Text Label 7700 3100 0    50   ~ 0
 BUS_TCK|SWDCLK
-Text Label 7700 2600 0    50   ~ 0
+Text Label 7700 3200 0    50   ~ 0
 BUS_TDO|SWO
-Text Label 7700 2500 0    50   ~ 0
+Text Label 7700 3300 0    50   ~ 0
 BUS_TDI|NC
 Text Label 7700 2900 0    50   ~ 0
 BUS_GPIO0
-Text Label 7700 3000 0    50   ~ 0
+Text Label 7700 2800 0    50   ~ 0
 BUS_GPIO1
-Text Label 7700 3100 0    50   ~ 0
+Text Label 7700 2700 0    50   ~ 0
 BUS_GPIO2
-Text Label 7700 3200 0    50   ~ 0
+Text Label 7700 2600 0    50   ~ 0
 BUS_GPIO3
-Text Label 7700 3300 0    50   ~ 0
+Text Label 7700 2500 0    50   ~ 0
 BUS_UART_TxD
-Text Label 7700 3400 0    50   ~ 0
+Text Label 7700 2400 0    50   ~ 0
 BUS_UART_RxD
 $Comp
 L power:GND #PWR0138
@@ -781,27 +781,27 @@ Wire Wire Line
 	3700 2100 3150 2100
 Text Label 3150 2100 0    50   ~ 0
 BUS_SW_CH3
-Text HLabel 9750 2200 2    50   BiDi ~ 0
+Text HLabel 9750 2400 2    50   BiDi ~ 0
 TGT_TMS|SWDIO_0
-Text HLabel 9750 2100 2    50   Output ~ 0
+Text HLabel 9750 2500 2    50   Output ~ 0
 TGT_TCK|SWDCLK_0
-Text HLabel 9750 1900 2    50   Output ~ 0
+Text HLabel 9750 2700 2    50   Output ~ 0
 TGT_TDI|NC_0
-Text HLabel 9750 2000 2    50   Input ~ 0
+Text HLabel 9750 2600 2    50   Input ~ 0
 TGT_TDO|SWO_0
-Text HLabel 9750 1800 2    50   Output ~ 0
+Text HLabel 9750 2800 2    50   Output ~ 0
 TGT_RST_0
 Text HLabel 9750 2300 2    50   BiDi ~ 0
 TGT_GPIO0.0
-Text HLabel 9750 2400 2    50   BiDi ~ 0
+Text HLabel 9750 2200 2    50   BiDi ~ 0
 TGT_GPIO0.1
-Text HLabel 9750 2500 2    50   BiDi ~ 0
+Text HLabel 9750 2100 2    50   BiDi ~ 0
 TGT_GPIO0.2
-Text HLabel 9750 2600 2    50   BiDi ~ 0
+Text HLabel 9750 2000 2    50   BiDi ~ 0
 TGT_GPIO0.3
-Text HLabel 9750 2700 2    50   BiDi ~ 0
+Text HLabel 9750 1900 2    50   BiDi ~ 0
 TGT_UART_TxD0
-Text HLabel 9750 2800 2    50   BiDi ~ 0
+Text HLabel 9750 1800 2    50   BiDi ~ 0
 TGT_UART_RxD0
 $Comp
 L power:GND #PWR0139
@@ -858,27 +858,27 @@ F 3 "" H 9750 9050 50  0001 C CNN
 	1    9750 9050
 	0    -1   1    0   
 $EndComp
-Text HLabel 9750 7650 2    50   BiDi ~ 0
+Text HLabel 9750 6650 2    50   BiDi ~ 0
 TGT_UART_RxD2
-Text HLabel 9750 7550 2    50   BiDi ~ 0
+Text HLabel 9750 6750 2    50   BiDi ~ 0
 TGT_UART_TxD2
-Text HLabel 9750 7450 2    50   BiDi ~ 0
+Text HLabel 9750 6850 2    50   BiDi ~ 0
 TGT_GPIO2.3
-Text HLabel 9750 7350 2    50   BiDi ~ 0
+Text HLabel 9750 6950 2    50   BiDi ~ 0
 TGT_GPIO2.2
-Text HLabel 9750 7250 2    50   BiDi ~ 0
+Text HLabel 9750 7050 2    50   BiDi ~ 0
 TGT_GPIO2.1
 Text HLabel 9750 7150 2    50   BiDi ~ 0
 TGT_GPIO2.0
-Text HLabel 9750 6650 2    50   Output ~ 0
+Text HLabel 9750 7650 2    50   Output ~ 0
 TGT_RST_2
-Text HLabel 9750 6750 2    50   Output ~ 0
+Text HLabel 9750 7550 2    50   Output ~ 0
 TGT_TDI|NC_2
-Text HLabel 9750 6850 2    50   Input ~ 0
+Text HLabel 9750 7450 2    50   Input ~ 0
 TGT_TDO|SWO_2
-Text HLabel 9750 6950 2    50   Output ~ 0
+Text HLabel 9750 7350 2    50   Output ~ 0
 TGT_TCK|SWDCLK_2
-Text HLabel 9750 7050 2    50   BiDi ~ 0
+Text HLabel 9750 7250 2    50   BiDi ~ 0
 TGT_TMS|SWDIO_2
 $Comp
 L power:GND #PWR0142
@@ -1101,27 +1101,27 @@ Wire Wire Line
 Wire Wire Line
 	7700 9550 8350 9550
 Wire Wire Line
-	7700 7250 8350 7250
-Wire Wire Line
-	7700 7350 8350 7350
-Wire Wire Line
-	7700 7450 8350 7450
-Wire Wire Line
-	7700 7550 8350 7550
-Wire Wire Line
-	7700 7650 8350 7650
-Wire Wire Line
-	7700 7750 8350 7750
-Wire Wire Line
-	7700 7850 8350 7850
-Wire Wire Line
-	7700 7950 8350 7950
-Wire Wire Line
-	7700 8050 8350 8050
+	7700 8250 8350 8250
 Wire Wire Line
 	7700 8150 8350 8150
 Wire Wire Line
-	7700 8250 8350 8250
+	7700 8050 8350 8050
+Wire Wire Line
+	7700 7950 8350 7950
+Wire Wire Line
+	7700 7850 8350 7850
+Wire Wire Line
+	7700 7750 8350 7750
+Wire Wire Line
+	7700 7650 8350 7650
+Wire Wire Line
+	7700 7550 8350 7550
+Wire Wire Line
+	7700 7450 8350 7450
+Wire Wire Line
+	7700 7350 8350 7350
+Wire Wire Line
+	7700 7250 8350 7250
 Wire Bus Line
 	6700 2300 6700 2900
 Wire Wire Line
@@ -1147,27 +1147,27 @@ Wire Wire Line
 Wire Wire Line
 	8350 3700 7700 3700
 Wire Wire Line
-	8350 3400 7700 3400
-Wire Wire Line
-	8350 3300 7700 3300
-Wire Wire Line
-	8350 3200 7700 3200
-Wire Wire Line
-	8350 3100 7700 3100
-Wire Wire Line
-	8350 3000 7700 3000
-Wire Wire Line
-	8350 2900 7700 2900
-Wire Wire Line
-	8350 2800 7700 2800
-Wire Wire Line
-	8350 2700 7700 2700
-Wire Wire Line
-	8350 2600 7700 2600
+	8350 2400 7700 2400
 Wire Wire Line
 	8350 2500 7700 2500
 Wire Wire Line
-	8350 2400 7700 2400
+	8350 2600 7700 2600
+Wire Wire Line
+	8350 2700 7700 2700
+Wire Wire Line
+	8350 2800 7700 2800
+Wire Wire Line
+	8350 2900 7700 2900
+Wire Wire Line
+	8350 3000 7700 3000
+Wire Wire Line
+	8350 3100 7700 3100
+Wire Wire Line
+	8350 3200 7700 3200
+Wire Wire Line
+	8350 3300 7700 3300
+Wire Wire Line
+	8350 3400 7700 3400
 Wire Bus Line
 	7700 3700 7500 3700
 Wire Bus Line
