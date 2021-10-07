@@ -9,13 +9,13 @@ Compact and modular Raspberry Pi shield for testing probe-rs
 | [renders_3dmodels](./renders_3dmodels/) | 3d models and renders of shields |
 | [shields](./shields/) | Shields needed to assemble the testing hardware |
 
-## Overview
+# Overview
 
 ##PCB
 
-#### Probe Shield
+###### Probe Shield
 ![Probe shield front view](./renders_3dmodels/probe_shield_render_raytraced.png)
-#### Target Stack Shield
+###### Target Stack Shield
 ![Target stack shield front view](./renders_3dmodels/target_stack_shield_render_front_raytraced.png)
 ![Target stack shield back view](./renders_3dmodels/target_stack_shield_render_back_raytraced.png)
 
