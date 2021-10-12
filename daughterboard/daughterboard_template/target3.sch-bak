@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 5 5
 Title "Target 3"
 Date "2021-10-12"
 Rev "0"
@@ -59,6 +59,8 @@ $Comp
 L power:+5V #PWR?
 U 1 1 61675873
 P 1650 950
+AR Path="/61668514/61675873" Ref="#PWR?"  Part="1" 
+AR Path="/61668157/61675873" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 1650 800 50  0001 C CNN
 F 1 "+5V" V 1665 1078 50  0000 L CNN
 F 2 "" H 1650 950 50  0001 C CNN
@@ -70,6 +72,8 @@ $Comp
 L power:+3V3 #PWR?
 U 1 1 61675879
 P 1650 1150
+AR Path="/61668514/61675879" Ref="#PWR?"  Part="1" 
+AR Path="/61668157/61675879" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 1650 1000 50  0001 C CNN
 F 1 "+3V3" V 1665 1278 50  0000 L CNN
 F 2 "" H 1650 1150 50  0001 C CNN

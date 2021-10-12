@@ -1,4 +1,4 @@
-16937896547907951
+16960756893352464
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75256,3 +75256,101 @@ varistor SIOV
 0
 2
 2
+hive
+KRTBAILMS15B5CB1B120R18
+KRTB AILMS1-5B5C-B1B12-0-R18-4
+LED
+0
+6
+6
+hive
+LEDC1608X80N
+150060GS75000
+LED
+0
+2
+2
+hive
+PCIexpress_x4_daughterboard
+Modified PCIexpress Bus Edge Connector x4
+PCIe
+0
+64
+64
+hive
+PinHeader_2x13_P2.54mm_Vertical_probe_shield
+Through hole straight pin header, 2x13, 2.54mm pitch, double rows
+Through hole pin header THT 2x13 2.54mm double row
+0
+26
+26
+hive
+PinHeader_2x13_P2.54mm_Vertical_probe_shield_male
+Through hole straight pin header, 2x13, 2.54mm pitch, double rows
+Through hole pin header THT 2x13 2.54mm double row
+0
+26
+26
+hive
+PinHeader_2x20_P2.54mm_Vertical_gpio_shield
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+40
+40
+hive
+SAMTEC_FTSH-105-01-F-DV-007
+
+
+0
+9
+9
+hive
+SAMTEC_PCIE-064-02-X-D-RA
+
+
+0
+64
+64
+hive
+SOP50P810X120-56N
+
+
+0
+56
+56
+hive
+SOP65P640X110-24N
+
+
+0
+24
+24
+hive
+SW_RDS-10S-74385-SMT
+
+
+0
+6
+6
+hive
+TO229P990X238-4N
+DPAK (SINGLE GAUGE) CASE369C
+Integrated Circuit
+0
+4
+4
+hive
+probe-rs-logo
+
+
+0
+0
+0
+hive
+solder-jumper-instruction
+
+
+0
+0
+0
