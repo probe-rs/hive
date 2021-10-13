@@ -19,7 +19,7 @@
 
   (layers
     (0 F.Cu signal)
-    (1 GND.Cu power)
+    (1 GND.Cu power hide)
     (2 PWR_SIG.Cu mixed)
     (31 B.Cu signal)
     (32 B.Adhes user)
@@ -4027,7 +4027,7 @@
   (gr_line (start 113 110) (end 192 110) (layer Edge.Cuts) (width 0.05) (tstamp 615436B5))
   (gr_line (start 113 110) (end 192 110) (layer B.Fab) (width 0.05) (tstamp 61547E8B))
   (dimension 3.5 (width 0.15) (layer F.Fab)
-    (gr_text "3.500 mm" (at 111.75 48.5) (layer F.Fab) (tstamp 615ECECC)
+    (gr_text "3.500 mm" (at 111.75 48.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     )
     (feature1 (pts (xy 110 57.5) (xy 110 50.413579)))
