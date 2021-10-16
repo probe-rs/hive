@@ -26,6 +26,8 @@ F 5 "TSSOP-24" H 6000 3150 50  0001 L BNN "PACKAGE"
 F 6 "PCA9535CPW,118" H 6000 3150 50  0001 L BNN "MPN"
 F 7 "NXP" H 6000 3150 50  0001 L BNN "SUPPLIER"
 F 8 "-" H 6000 3150 50  0001 L BNN "OC_FARNELL"
+F 9 "1.9" H 6000 3150 50  0001 C CNN "Digikey Price (CHF)"
+F 10 "1.92" H 6000 3150 50  0001 C CNN "Mouser Price (CHF)"
 	1    6000 3150
 	1    0    0    -1  
 $EndComp
@@ -37,6 +39,8 @@ F 0 "JP1" H 1600 1355 50  0000 C CNN
 F 1 "Address Bit 0" H 1600 1264 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1600 1150 50  0001 C CNN
 F 3 "~" H 1600 1150 50  0001 C CNN
+F 4 "-" H 1600 1150 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 1600 1150 50  0001 C CNN "Mouser Price (CHF)"
 	1    1600 1150
 	1    0    0    -1  
 $EndComp
@@ -48,6 +52,8 @@ F 0 "JP2" H 1600 1755 50  0000 C CNN
 F 1 "Address Bit 1" H 1600 1664 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1600 1550 50  0001 C CNN
 F 3 "~" H 1600 1550 50  0001 C CNN
+F 4 "-" H 1600 1550 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 1600 1550 50  0001 C CNN "Mouser Price (CHF)"
 	1    1600 1550
 	1    0    0    -1  
 $EndComp
@@ -59,6 +65,8 @@ F 0 "JP3" H 1600 2155 50  0000 C CNN
 F 1 "Address Bit 2" H 1600 2064 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1600 1950 50  0001 C CNN
 F 3 "~" H 1600 1950 50  0001 C CNN
+F 4 "-" H 1600 1950 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 1600 1950 50  0001 C CNN "Mouser Price (CHF)"
 	1    1600 1950
 	1    0    0    -1  
 $EndComp
@@ -101,6 +109,8 @@ F 0 "R2" H 2209 2246 50  0000 L CNN
 F 1 "100k" H 2209 2155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2150 2200 50  0001 C CNN
 F 3 "~" H 2150 2200 50  0001 C CNN
+F 4 "-" H 2150 2200 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 2150 2200 50  0001 C CNN "Mouser Price (CHF)"
 	1    2150 2200
 	1    0    0    -1  
 $EndComp
@@ -112,6 +122,8 @@ F 0 "R3" H 2559 2246 50  0000 L CNN
 F 1 "100k" H 2559 2155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2500 2200 50  0001 C CNN
 F 3 "~" H 2500 2200 50  0001 C CNN
+F 4 "-" H 2500 2200 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 2500 2200 50  0001 C CNN "Mouser Price (CHF)"
 	1    2500 2200
 	1    0    0    -1  
 $EndComp
@@ -123,6 +135,8 @@ F 0 "R4" H 2909 2246 50  0000 L CNN
 F 1 "100k" H 2909 2155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2850 2200 50  0001 C CNN
 F 3 "~" H 2850 2200 50  0001 C CNN
+F 4 "-" H 2850 2200 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 2850 2200 50  0001 C CNN "Mouser Price (CHF)"
 	1    2850 2200
 	1    0    0    -1  
 $EndComp
@@ -255,6 +269,8 @@ F 6 "720-KRTBAILMS1A2872" H 9800 850 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/KRTB-AILMS1-5B5C-B1B12-0-R18?qs=QNEnbhJQKvYmRqA4LGyKDw%3D%3D" H 9800 750 50  0001 L CNN "Mouser Price/Stock"
 F 8 "OSRAM" H 9800 650 50  0001 L CNN "Manufacturer_Name"
 F 9 "KRTB AILMS1-5B5C-B1B12-0-R18" H 9800 550 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "0.38" H 8750 1150 50  0001 C CNN "Digikey Price (CHF)"
+F 11 "0.38" H 8750 1150 50  0001 C CNN "Mouser Price (CHF)"
 	1    8750 1150
 	1    0    0    -1  
 $EndComp
@@ -301,6 +317,8 @@ F 0 "R5" V 4750 3550 50  0000 L CNN
 F 1 "150" V 4750 2900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4700 3250 50  0001 C CNN
 F 3 "~" H 4700 3250 50  0001 C CNN
+F 4 "-" H 4700 3250 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 4700 3250 50  0001 C CNN "Mouser Price (CHF)"
 	1    4700 3250
 	0    -1   -1   0   
 $EndComp
@@ -312,6 +330,8 @@ F 0 "R6" V 4750 3650 50  0000 L CNN
 F 1 "45" V 4750 3000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4700 3350 50  0001 C CNN
 F 3 "~" H 4700 3350 50  0001 C CNN
+F 4 "-" H 4700 3350 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 4700 3350 50  0001 C CNN "Mouser Price (CHF)"
 	1    4700 3350
 	0    -1   -1   0   
 $EndComp
@@ -323,6 +343,8 @@ F 0 "R7" V 4750 3750 50  0000 L CNN
 F 1 "30" V 4750 3100 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4700 3450 50  0001 C CNN
 F 3 "~" H 4700 3450 50  0001 C CNN
+F 4 "-" H 4700 3450 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 4700 3450 50  0001 C CNN "Mouser Price (CHF)"
 	1    4700 3450
 	0    -1   -1   0   
 $EndComp
@@ -370,6 +392,8 @@ F 0 "R8" V 6850 3400 50  0000 L CNN
 F 1 "100k" V 6850 3850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6900 3700 50  0001 C CNN
 F 3 "~" H 6900 3700 50  0001 C CNN
+F 4 "-" H 6900 3700 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 6900 3700 50  0001 C CNN "Mouser Price (CHF)"
 	1    6900 3700
 	1    0    0    -1  
 $EndComp
@@ -381,6 +405,8 @@ F 0 "R9" V 7000 3400 50  0000 L CNN
 F 1 "100k" V 7000 3850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7050 3700 50  0001 C CNN
 F 3 "~" H 7050 3700 50  0001 C CNN
+F 4 "-" H 7050 3700 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 7050 3700 50  0001 C CNN "Mouser Price (CHF)"
 	1    7050 3700
 	1    0    0    -1  
 $EndComp
@@ -392,6 +418,8 @@ F 0 "R10" V 7150 3400 50  0000 L CNN
 F 1 "100k" V 7150 3850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7200 3700 50  0001 C CNN
 F 3 "~" H 7200 3700 50  0001 C CNN
+F 4 "-" H 7200 3700 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 7200 3700 50  0001 C CNN "Mouser Price (CHF)"
 	1    7200 3700
 	1    0    0    -1  
 $EndComp
@@ -403,6 +431,8 @@ F 0 "R11" V 7300 3400 50  0000 L CNN
 F 1 "100k" V 7300 3850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7350 3700 50  0001 C CNN
 F 3 "~" H 7350 3700 50  0001 C CNN
+F 4 "-" H 7350 3700 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 7350 3700 50  0001 C CNN "Mouser Price (CHF)"
 	1    7350 3700
 	1    0    0    -1  
 $EndComp
@@ -414,6 +444,8 @@ F 0 "R12" V 7450 3400 50  0000 L CNN
 F 1 "100k" V 7450 3850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7500 3700 50  0001 C CNN
 F 3 "~" H 7500 3700 50  0001 C CNN
+F 4 "-" H 7500 3700 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 7500 3700 50  0001 C CNN "Mouser Price (CHF)"
 	1    7500 3700
 	1    0    0    -1  
 $EndComp
@@ -425,6 +457,8 @@ F 0 "R13" V 7600 3400 50  0000 L CNN
 F 1 "100k" V 7600 3850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7650 3700 50  0001 C CNN
 F 3 "~" H 7650 3700 50  0001 C CNN
+F 4 "-" H 7650 3700 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 7650 3700 50  0001 C CNN "Mouser Price (CHF)"
 	1    7650 3700
 	1    0    0    -1  
 $EndComp
@@ -436,6 +470,8 @@ F 0 "R14" V 7750 3400 50  0000 L CNN
 F 1 "100k" V 7750 3850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7800 3700 50  0001 C CNN
 F 3 "~" H 7800 3700 50  0001 C CNN
+F 4 "-" H 7800 3700 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 7800 3700 50  0001 C CNN "Mouser Price (CHF)"
 	1    7800 3700
 	1    0    0    -1  
 $EndComp
@@ -447,6 +483,8 @@ F 0 "R15" V 7900 3400 50  0000 L CNN
 F 1 "100k" V 7900 3850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7950 3700 50  0001 C CNN
 F 3 "~" H 7950 3700 50  0001 C CNN
+F 4 "-" H 7950 3700 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 7950 3700 50  0001 C CNN "Mouser Price (CHF)"
 	1    7950 3700
 	1    0    0    -1  
 $EndComp
@@ -605,6 +643,8 @@ F 0 "R16" V 4350 3650 50  0000 L CNN
 F 1 "100k" V 4350 4100 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4400 3950 50  0001 C CNN
 F 3 "~" H 4400 3950 50  0001 C CNN
+F 4 "-" H 4400 3950 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 4400 3950 50  0001 C CNN "Mouser Price (CHF)"
 	1    4400 3950
 	1    0    0    -1  
 $EndComp

@@ -26,6 +26,8 @@ F 5 "863-NCP1117DT33T5G" H 5000 1050 50  0001 L CNN "Mouser Part Number"
 F 6 "https://www.mouser.co.uk/ProductDetail/onsemi/NCP1117DT33T5G?qs=Gev%252BmEvV0ibY9yFNc3ZYyw%3D%3D" H 5000 950 50  0001 L CNN "Mouser Price/Stock"
 F 7 "ON Semiconductor" H 5000 850 50  0001 L CNN "Manufacturer_Name"
 F 8 "NCP1117DT33T5G" H 5000 750 50  0001 L CNN "Manufacturer_Part_Number"
+F 9 "0.62" H 3650 1350 50  0001 C CNN "Digikey Price (CHF)"
+F 10 "0.64" H 3650 1350 50  0001 C CNN "Mouser Price (CHF)"
 	1    3650 1350
 	1    0    0    -1  
 $EndComp
@@ -38,6 +40,9 @@ F 0 "C1" H 3392 1496 50  0000 L CNN
 F 1 "10u" H 3392 1405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3300 1450 50  0001 C CNN
 F 3 "~" H 3300 1450 50  0001 C CNN
+F 4 "0.15" H 3300 1450 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "LMK212ABJ106MG-T" H 3300 1450 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "0.13" H 3300 1450 50  0001 C CNN "Mouser Price (CHF)"
 	1    3300 1450
 	1    0    0    -1  
 $EndComp
@@ -49,6 +54,9 @@ F 0 "C2" H 5492 1496 50  0000 L CNN
 F 1 "10u" H 5492 1405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5400 1450 50  0001 C CNN
 F 3 "~" H 5400 1450 50  0001 C CNN
+F 4 "0.15" H 5400 1450 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "LMK212ABJ106MG-T" H 5400 1450 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "0.13" H 5400 1450 50  0001 C CNN "Mouser Price (CHF)"
 	1    5400 1450
 	1    0    0    -1  
 $EndComp
@@ -128,6 +136,8 @@ F 0 "R1" H 6059 1646 50  0000 L CNN
 F 1 "195" H 6059 1555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6000 1600 50  0001 C CNN
 F 3 "~" H 6000 1600 50  0001 C CNN
+F 4 "-" H 6000 1600 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 6000 1600 50  0001 C CNN "Mouser Price (CHF)"
 	1    6000 1600
 	1    0    0    -1  
 $EndComp
@@ -145,6 +155,8 @@ F 6 "710-150060VS75000" H 6500 2050 50  0001 L BNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D" H 6500 1950 50  0001 L BNN "Mouser Price/Stock"
 F 8 "Wurth Elektronik" H 6500 1850 50  0001 L BNN "Manufacturer_Name"
 F 9 "150060VS75000" H 6500 1750 50  0001 L BNN "Manufacturer_Part_Number"
+F 10 "0.14" H 6000 2300 50  0001 C CNN "Digikey Price (CHF)"
+F 11 "0.13" H 6000 2300 50  0001 C CNN "Mouser Price (CHF)"
 	1    6000 2300
 	0    -1   -1   0   
 $EndComp
@@ -167,6 +179,9 @@ F 0 "J1" H 13550 3817 50  0000 C CNN
 F 1 "GPIO shield connector 40pin" H 13550 3726 50  0000 C CNN
 F 2 "hive:PinHeader_2x20_P2.54mm_Vertical_gpio_shield" H 13500 2700 50  0001 C CNN
 F 3 "~" H 13500 2700 50  0001 C CNN
+F 4 "Adafruit 1979" H 13500 2700 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "2.77" H 13500 2700 50  0001 C CNN "Mouser Price (CHF)"
+F 6 "2.74" H 13500 2700 50  0001 C CNN "Digikey Price (CHF)"
 	1    13500 2700
 	1    0    0    -1  
 $EndComp
@@ -217,6 +232,9 @@ F 0 "J2" H 13550 6250 50  0000 C CNN
 F 1 "probe shield connector 26pin" H 13550 6150 50  0000 C CNN
 F 2 "hive:PinHeader_2x13_P2.54mm_Vertical_probe_shield" H 13500 5400 50  0001 C CNN
 F 3 "~" H 13500 5400 50  0001 C CNN
+F 4 "1.81" H 13500 5400 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "Adafruit 1112" H 13500 5400 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "1.82" H 13500 5400 50  0001 C CNN "Mouser Price (CHF)"
 	1    13500 5400
 	1    0    0    -1  
 $EndComp
@@ -841,6 +859,9 @@ F 4 "Samtec Inc" H 3250 5050 50  0001 L BNN "MANUFACTURER"
 F 5 "Manufacturer Recommendations" H 3250 5050 50  0001 L BNN "STANDARD"
 F 6 "D" H 3250 5050 50  0001 L BNN "PARTREV"
 F 7 "9.58mm" H 3250 5050 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 8 "5.46" H 3250 5050 50  0001 C CNN "Digikey Price (CHF)"
+F 9 "PCIE-064-02-F-D-RA" H 3250 5050 50  0001 C CNN "Manufacturer_Part_Number"
+F 10 "5.17" H 3250 5050 50  0001 C CNN "Mouser Price (CHF)"
 	1    3250 5050
 	1    0    0    -1  
 $EndComp
@@ -1421,6 +1442,8 @@ F 0 "H1" V 1104 1150 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1195 1150 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 1150 1000 50  0001 C CNN
 F 3 "~" H 1150 1000 50  0001 C CNN
+F 4 "-" H 1150 1000 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 1150 1000 50  0001 C CNN "Mouser Price (CHF)"
 	1    1150 1000
 	0    1    1    0   
 $EndComp
@@ -1432,6 +1455,8 @@ F 0 "H2" V 1104 1350 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1195 1350 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 1150 1200 50  0001 C CNN
 F 3 "~" H 1150 1200 50  0001 C CNN
+F 4 "-" H 1150 1200 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 1150 1200 50  0001 C CNN "Mouser Price (CHF)"
 	1    1150 1200
 	0    1    1    0   
 $EndComp
@@ -1443,6 +1468,8 @@ F 0 "H3" V 1104 1550 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1195 1550 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 1150 1400 50  0001 C CNN
 F 3 "~" H 1150 1400 50  0001 C CNN
+F 4 "-" H 1150 1400 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 1150 1400 50  0001 C CNN "Mouser Price (CHF)"
 	1    1150 1400
 	0    1    1    0   
 $EndComp
@@ -1454,6 +1481,8 @@ F 0 "H4" V 1104 1750 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1195 1750 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 1150 1600 50  0001 C CNN
 F 3 "~" H 1150 1600 50  0001 C CNN
+F 4 "-" H 1150 1600 50  0001 C CNN "Digikey Price (CHF)"
+F 5 "-" H 1150 1600 50  0001 C CNN "Mouser Price (CHF)"
 	1    1150 1600
 	0    1    1    0   
 $EndComp
