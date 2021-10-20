@@ -1,4 +1,4 @@
-16959122840103102
+16960756972935378
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75270,6 +75270,13 @@ LED
 0
 2
 2
+hive
+PCIexpress_x4_daughterboard
+Modified PCIexpress Bus Edge Connector x4
+PCIe
+0
+64
+64
 hive
 PinHeader_2x13_P2.54mm_Vertical_probe_shield
 Through hole straight pin header, 2x13, 2.54mm pitch, double rows
