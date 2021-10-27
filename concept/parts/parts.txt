@@ -22,8 +22,10 @@ PCIE x4 64pin angled:
 M2 67pin:
 	https://www.mouser.ch/ProductDetail/TE-Connectivity-AMP/2199119-1?qs=I%252B29QTDM1GMD4C8MNFxoCA%3D%3D
 	
-ARM 10pin connector (keyed):
-	FTSH-105-01-F-DV-007-K
+ARM 10pin connector:
+	with keying: FTSH-105-01-F-DV-007-K
+	Cheaper alternative: 20021121-00010T1LF
+
 	
 Status LED:
 	https://www.mouser.ch/ProductDetail/Kingbright/APFA2507LSURKSYKZGKC?qs=sGAEpiMZZMvyj6n1w4pZD6eAxfjFR14DQbRl3SGGWD7tDWKsfS49bQ%3D%3D
