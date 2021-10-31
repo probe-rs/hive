@@ -20,7 +20,7 @@ PCIE x4 64pin angled:
 	https://www.mouser.ch/ProductDetail/Samtec/PCIE-064-02-F-D-RA?qs=%2Fha2pyFaduhE9skzL9IpvNsrW0zxqexjG2fd60yobxGx5MyGxebw9Hc9j7faRraV
 
 M2 67pin:
-	https://www.mouser.ch/ProductDetail/TE-Connectivity-AMP/2199119-1?qs=I%252B29QTDM1GMD4C8MNFxoCA%3D%3D
+	https://www.mouser.ch/ProductDetail/TE-Connectivity/2199230-3?qs=EQCnRgr4b6HElQOKr5ma1Q%3D%3D
 	
 ARM 10pin connector:
 	with keying: FTSH-105-01-F-DV-007-K
