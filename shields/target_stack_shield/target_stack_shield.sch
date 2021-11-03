@@ -1554,4 +1554,15 @@ Wire Wire Line
 	2350 3850 2350 3750
 Connection ~ 2350 3750
 Connection ~ 2350 3650
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 6184E469
+P 1200 2150
+F 0 "H5" H 1300 2196 50  0000 L CNN
+F 1 "MountingHoleDaughterboard" H 1300 2105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1200 2150 50  0001 C CNN
+F 3 "~" H 1200 2150 50  0001 C CNN
+	1    1200 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

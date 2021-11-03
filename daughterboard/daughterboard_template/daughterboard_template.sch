@@ -636,4 +636,15 @@ Wire Wire Line
 	3400 3500 3400 3250
 Wire Wire Line
 	3400 3250 2900 3250
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61832037
+P 850 1100
+F 0 "H1" H 950 1146 50  0000 L CNN
+F 1 "MountingHoleDaughterboard" H 950 1055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 850 1100 50  0001 C CNN
+F 3 "~" H 850 1100 50  0001 C CNN
+	1    850  1100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
