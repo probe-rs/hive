@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LPC845M301JHI33Y
+D NXP - LPC845M301JHI33Y - MCU, 32BIT, 30MHZ, HVQFN-33
+F http://www.nxp.com/docs/en/data-sheet/LPC84x.pdf
+$ENDCMP
+#
+#End Doc Library

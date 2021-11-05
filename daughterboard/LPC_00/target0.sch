@@ -1,0 +1,435 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title "Target 0"
+Date "2021-10-12"
+Rev "0"
+Comp "probe-rs"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1700 2550 0    50   Output ~ 0
+UART_RxD0
+Text HLabel 1700 2650 0    50   Input ~ 0
+UART_TxD0
+Text HLabel 1700 2750 0    50   BiDi ~ 0
+GPIO0.0
+Text HLabel 1700 2850 0    50   BiDi ~ 0
+GPIO0.1
+Text HLabel 1700 2950 0    50   BiDi ~ 0
+GPIO0.2
+Text HLabel 1700 3050 0    50   BiDi ~ 0
+GPIO0.3
+Text HLabel 1700 1650 0    50   BiDi ~ 0
+TMS|SWDIO_0
+Text HLabel 1700 1750 0    50   Input ~ 0
+TCK|SWDCLK_0
+Text HLabel 1700 1850 0    50   Output ~ 0
+TDO|SWO_0
+Text HLabel 1700 1950 0    50   Input ~ 0
+TDI|NC_0
+Text HLabel 1700 2050 0    50   Input ~ 0
+RST_0
+Wire Notes Line
+	800  1550 1800 1550
+Wire Notes Line
+	800  2450 1800 2450
+Wire Notes Line
+	1800 2450 1800 3150
+Wire Notes Line
+	1800 3150 800  3150
+Wire Notes Line
+	800  3150 800  2450
+Text Notes 1000 1500 0    50   ~ 0
+Debug SWD/JTAG
+Text Notes 1100 2400 0    50   ~ 0
+GPIO/UART
+Wire Notes Line
+	1800 1550 1800 2150
+Wire Notes Line
+	1800 2150 800  2150
+Wire Notes Line
+	800  2150 800  1550
+Text Notes 2550 900  0    50   ~ 0
+Add your target here and connect it to the provided Debug and GPIO/UART connections.\n\nDebug and GPIO/UART connections are 5V tolerant. Min signal level is 3.3V
+Wire Wire Line
+	1700 1850 2250 1850
+Text Label 2250 1850 2    50   ~ 0
+TDO
+Wire Wire Line
+	1700 1650 2250 1650
+Text Label 2250 1650 2    50   ~ 0
+SWDIO-TMS
+Wire Wire Line
+	1700 1750 2250 1750
+Text Label 2250 1750 2    50   ~ 0
+SWCLK-TCLK
+Wire Wire Line
+	1700 2050 2250 2050
+Text Label 2250 2050 2    50   ~ 0
+RESETN
+Wire Wire Line
+	1700 1950 2250 1950
+Text Label 2250 1950 2    50   ~ 0
+TDI
+Wire Wire Line
+	1700 2850 2250 2850
+Text Label 2250 2850 2    50   ~ 0
+GPIO1
+Wire Wire Line
+	1700 2750 2250 2750
+Text Label 2250 2750 2    50   ~ 0
+GPIO0
+Wire Wire Line
+	1700 3050 2250 3050
+Text Label 2250 3050 2    50   ~ 0
+GPIO3
+Wire Wire Line
+	1700 2950 2250 2950
+Text Label 2250 2950 2    50   ~ 0
+GPIO2
+Wire Wire Line
+	5150 3600 4600 3600
+Text Label 4600 3600 0    50   ~ 0
+USART_RX
+Wire Wire Line
+	5150 3700 4600 3700
+Text Label 4600 3700 0    50   ~ 0
+USART_TX
+Text Label 900  3500 3    50   ~ 0
+RESETN
+$Comp
+L Device:R_Small R?
+U 1 1 619E8148
+P 900 4450
+F 0 "R?" H 959 4496 50  0000 L CNN
+F 1 "100k" H 959 4405 50  0000 L CNN
+F 2 "" H 900 4450 50  0001 C CNN
+F 3 "~" H 900 4450 50  0001 C CNN
+	1    900  4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 619E814E
+P 900 4700
+F 0 "#PWR?" H 900 4550 50  0001 C CNN
+F 1 "+3V3" H 915 4873 50  0000 C CNN
+F 2 "" H 900 4700 50  0001 C CNN
+F 3 "" H 900 4700 50  0001 C CNN
+	1    900  4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	900  3500 900  4050
+Wire Wire Line
+	900  4700 900  4550
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 619E8156
+P 1550 4450
+AR Path="/616688D6/619E8156" Ref="JP?"  Part="1" 
+AR Path="/61668514/619E8156" Ref="JP?"  Part="1" 
+F 0 "JP?" V 1504 4518 50  0000 L CNN
+F 1 "NRST" V 1595 4518 50  0000 L CNN
+F 2 "" H 1550 4450 50  0001 C CNN
+F 3 "~" H 1550 4450 50  0001 C CNN
+	1    1550 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 4300 1550 4050
+Wire Wire Line
+	1550 4050 900  4050
+Connection ~ 900  4050
+Wire Wire Line
+	900  4050 900  4350
+$Comp
+L power:GND #PWR?
+U 1 1 619E8160
+P 1550 4700
+F 0 "#PWR?" H 1550 4450 50  0001 C CNN
+F 1 "GND" H 1555 4527 50  0000 C CNN
+F 2 "" H 1550 4700 50  0001 C CNN
+F 3 "" H 1550 4700 50  0001 C CNN
+	1    1550 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 4700 1550 4600
+Text Label 2150 3450 3    50   ~ 0
+SWDIO
+Text Label 2600 3450 3    50   ~ 0
+SWCLK
+$Comp
+L Device:R_Small R?
+U 1 1 619E816A
+P 2150 4400
+F 0 "R?" H 2209 4446 50  0000 L CNN
+F 1 "10k" H 2209 4355 50  0000 L CNN
+F 2 "" H 2150 4400 50  0001 C CNN
+F 3 "~" H 2150 4400 50  0001 C CNN
+	1    2150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 619E8176
+P 2600 4400
+F 0 "R?" H 2659 4446 50  0000 L CNN
+F 1 "10k" H 2659 4355 50  0000 L CNN
+F 2 "" H 2600 4400 50  0001 C CNN
+F 3 "~" H 2600 4400 50  0001 C CNN
+	1    2600 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3450 2150 4300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 619E817F
+P 2150 4650
+F 0 "#PWR?" H 2150 4500 50  0001 C CNN
+F 1 "+3V3" H 2165 4823 50  0000 C CNN
+F 2 "" H 2150 4650 50  0001 C CNN
+F 3 "" H 2150 4650 50  0001 C CNN
+	1    2150 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 4650 2600 4500
+Wire Wire Line
+	2600 3450 2600 4300
+$Comp
+L power:GND #PWR?
+U 1 1 619E818B
+P 2600 4650
+AR Path="/616688D6/619E818B" Ref="#PWR?"  Part="1" 
+AR Path="/61668514/619E818B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2600 4400 50  0001 C CNN
+F 1 "GND" H 2605 4477 50  0000 C CNN
+F 2 "" H 2600 4650 50  0001 C CNN
+F 3 "" H 2600 4650 50  0001 C CNN
+	1    2600 4650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2650 5500
+Wire Wire Line
+	6850 4200 6850 4300
+Wire Wire Line
+	6850 4300 7000 4300
+Wire Wire Line
+	7000 4300 7000 4200
+$Comp
+L power:GND #PWR?
+U 1 1 619E957B
+P 7000 4400
+AR Path="/616688D6/619E957B" Ref="#PWR?"  Part="1" 
+AR Path="/61668514/619E957B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7000 4150 50  0001 C CNN
+F 1 "GND" H 7005 4227 50  0000 C CNN
+F 2 "" H 7000 4400 50  0001 C CNN
+F 3 "" H 7000 4400 50  0001 C CNN
+	1    7000 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4300 7000 4400
+Connection ~ 7000 4300
+$Comp
+L Device:C_Small C?
+U 1 1 619EA817
+P 7900 1550
+F 0 "C?" H 7992 1596 50  0000 L CNN
+F 1 "100n" H 7992 1505 50  0000 L CNN
+F 2 "" H 7900 1550 50  0001 C CNN
+F 3 "~" H 7900 1550 50  0001 C CNN
+	1    7900 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 619ECAC7
+P 8300 1550
+F 0 "C?" H 8392 1596 50  0000 L CNN
+F 1 "100n" H 8392 1505 50  0000 L CNN
+F 2 "" H 8300 1550 50  0001 C CNN
+F 3 "~" H 8300 1550 50  0001 C CNN
+	1    8300 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 619EEE66
+P 7400 1550
+F 0 "C?" H 7492 1596 50  0000 L CNN
+F 1 "4.7u" H 7492 1505 50  0000 L CNN
+F 2 "" H 7400 1550 50  0001 C CNN
+F 3 "~" H 7400 1550 50  0001 C CNN
+	1    7400 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1950 6850 1350
+Wire Wire Line
+	6850 1350 7000 1350
+Wire Wire Line
+	8300 1350 8300 1450
+Wire Wire Line
+	7900 1450 7900 1350
+Connection ~ 7900 1350
+Wire Wire Line
+	7900 1350 8300 1350
+Wire Wire Line
+	7400 1450 7400 1350
+Connection ~ 7400 1350
+Wire Wire Line
+	7400 1350 7900 1350
+Wire Wire Line
+	7000 1350 7000 1950
+Connection ~ 7000 1350
+Wire Wire Line
+	7000 1350 7400 1350
+$Comp
+L power:GND #PWR?
+U 1 1 619F0EBB
+P 8300 1850
+AR Path="/616688D6/619F0EBB" Ref="#PWR?"  Part="1" 
+AR Path="/61668514/619F0EBB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8300 1600 50  0001 C CNN
+F 1 "GND" H 8305 1677 50  0000 C CNN
+F 2 "" H 8300 1850 50  0001 C CNN
+F 3 "" H 8300 1850 50  0001 C CNN
+	1    8300 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 1850 8300 1800
+Wire Wire Line
+	7400 1800 7400 1650
+Wire Wire Line
+	7900 1650 7900 1800
+Connection ~ 7900 1800
+Wire Wire Line
+	7900 1800 7400 1800
+Wire Wire Line
+	8300 1800 7900 1800
+Wire Wire Line
+	8300 1650 8300 1800
+Connection ~ 8300 1800
+Wire Wire Line
+	5150 2500 4600 2500
+Text Label 4600 2500 0    50   ~ 0
+TDI
+Wire Wire Line
+	5150 2600 4600 2600
+Text Label 4600 2600 0    50   ~ 0
+SWDIO-TMS
+Wire Wire Line
+	5150 2700 4600 2700
+Text Label 4600 2700 0    50   ~ 0
+SWCLK-TCLK
+$Comp
+L hive_daughterboard:LPC845M301JHI33Y U?
+U 1 1 619D8987
+P 6850 2700
+F 0 "U?" H 6850 2000 50  0000 C CNN
+F 1 "LPC845M301JHI33Y" H 6850 2100 50  0000 C CNN
+F 2 "QFN50P500X500X85-33N-D" H 9150 3500 50  0001 L CNN
+F 3 "http://www.nxp.com/docs/en/data-sheet/LPC84x.pdf" H 9150 3400 50  0001 L CNN
+F 4 "NXP - LPC845M301JHI33Y - MCU, 32BIT, 30MHZ, HVQFN-33" H 9150 3300 50  0001 L CNN "Description"
+F 5 "0.85" H 9150 3200 50  0001 L CNN "Height"
+F 6 "771-LPC845M301JHI33Y" H 9150 3100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/LPC845M301JHI33Y?qs=AQlKX63v8RtFAajdB8vcLw%3D%3D" H 9150 3000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "NXP" H 9150 2900 50  0001 L CNN "Manufacturer_Name"
+F 9 "LPC845M301JHI33Y" H 9150 2800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6850 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2900 4600 2900
+Text Label 4600 2900 0    50   ~ 0
+RESETN
+Wire Wire Line
+	5150 2400 4600 2400
+Text Label 4600 2400 0    50   ~ 0
+TDO
+Wire Wire Line
+	2150 4500 2150 4650
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 619FD73A
+P 4250 2800
+AR Path="/616688D6/619FD73A" Ref="JP?"  Part="1" 
+AR Path="/61668514/619FD73A" Ref="JP?"  Part="1" 
+F 0 "JP?" H 4500 2750 50  0000 C CNN
+F 1 "NJRST" H 4000 2750 50  0000 C CNN
+F 2 "" H 4250 2800 50  0001 C CNN
+F 3 "~" H 4250 2800 50  0001 C CNN
+	1    4250 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 2800 4400 2800
+$Comp
+L power:GND #PWR?
+U 1 1 61A00138
+P 3900 2800
+AR Path="/616688D6/61A00138" Ref="#PWR?"  Part="1" 
+AR Path="/61668514/61A00138" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3900 2550 50  0001 C CNN
+F 1 "GND" V 3905 2672 50  0000 R CNN
+F 2 "" H 3900 2800 50  0001 C CNN
+F 3 "" H 3900 2800 50  0001 C CNN
+	1    3900 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 2800 4100 2800
+Wire Wire Line
+	1700 2650 2250 2650
+Text Label 2250 2650 2    50   ~ 0
+USART_RX
+Wire Wire Line
+	1700 2550 2250 2550
+Text Label 2250 2550 2    50   ~ 0
+USART_TX
+Wire Wire Line
+	8550 3500 9100 3500
+Text Label 9100 3500 2    50   ~ 0
+GPIO1
+Wire Wire Line
+	8550 3400 9100 3400
+Text Label 9100 3400 2    50   ~ 0
+GPIO0
+Wire Wire Line
+	8550 3700 9100 3700
+Text Label 9100 3700 2    50   ~ 0
+GPIO3
+Wire Wire Line
+	8550 3600 9100 3600
+Text Label 9100 3600 2    50   ~ 0
+GPIO2
+NoConn ~ 5150 3000
+NoConn ~ 5150 3100
+NoConn ~ 5150 3200
+NoConn ~ 5150 3300
+NoConn ~ 5150 3400
+NoConn ~ 5150 3500
+NoConn ~ 8550 2400
+NoConn ~ 8550 2500
+NoConn ~ 8550 2600
+NoConn ~ 8550 2700
+NoConn ~ 8550 2800
+NoConn ~ 8550 2900
+NoConn ~ 8550 3000
+NoConn ~ 8550 3100
+NoConn ~ 8550 3200
+NoConn ~ 8550 3300
+NoConn ~ 8550 3800
+$EndSCHEMATC
