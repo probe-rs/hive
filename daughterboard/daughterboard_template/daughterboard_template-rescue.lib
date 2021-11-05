@@ -1,26 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Mechanical_MountingHole
+# m2_keyA_67pin_daughterboard-hive
 #
-DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
-F0 "H" 0 200 50 H V C CNN
-F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- MountingHole*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 50 N
-ENDDRAW
-ENDDEF
-#
-# daughterboard_template-rescue_m2_keyA_67pin_daughterboard-hive
-#
-DEF daughterboard_template-rescue_m2_keyA_67pin_daughterboard-hive J 0 40 Y Y 1 F N
+DEF m2_keyA_67pin_daughterboard-hive J 0 40 Y Y 1 F N
 F0 "J" -300 1925 50 H V L BNN
-F1 "daughterboard_template-rescue_m2_keyA_67pin_daughterboard-hive" -550 -1800 50 H V L BNN
+F1 "m2_keyA_67pin_daughterboard-hive" -550 -1800 50 H V L BNN
 F2 "TE_2199230-3" -300 1750 50 H I L BNN
 F3 "" -450 0 50 H I L BNN
 F4 "2199230-3" -250 1750 50 H I L BNN "Comment"
@@ -97,50 +82,6 @@ X GND 74 900 -1600 200 L 40 40 0 0 P
 X GND 75 -900 -1600 200 R 40 40 0 0 P
 X +3V3 8 900 1400 200 L 40 40 0 0 w
 X GND 9 -900 1400 200 R 40 40 0 0 P
-ENDDRAW
-ENDDEF
-#
-# power_+3V3
-#
-DEF power_+3V3 #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3V3" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+5V
-#
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

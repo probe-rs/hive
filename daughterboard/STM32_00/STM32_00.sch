@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
-Title "Daughterboard template"
-Date "2021-10-11"
+Title "Daughterboard STM32 00"
+Date "2021-11-05"
 Rev "0"
 Comp "probe-rs"
 Comment1 ""
@@ -502,7 +502,7 @@ Wire Wire Line
 Text Notes 750  800  0    50   ~ 0
 You can implement 4 targets per daugtherboard.\nPlease use the corresponding hierarchical schematics for that.\n
 $Comp
-L daughterboard_template-rescue:m2_keyA_67pin_daughterboard-hive J1
+L hive:m2_keyA_67pin_daughterboard J1
 U 1 1 6181B4AF
 P 6000 3300
 F 0 "J1" H 6000 5367 50  0000 C CNN

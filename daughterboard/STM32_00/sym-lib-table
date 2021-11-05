@@ -1,5 +1,4 @@
 (sym_lib_table
   (lib (name hive)(type Legacy)(uri ${KIPRJMOD}/../../component_library/lib_sch/hive.lib)(options "")(descr ""))
   (lib (name hive_daughterboard)(type Legacy)(uri ${KIPRJMOD}/component_library/lib_sch/hive_daughterboard.lib)(options "")(descr ""))
-  (lib (name daughterboard_template-rescue)(type Legacy)(uri ${KIPRJMOD}/daughterboard_template-rescue.lib)(options "")(descr ""))
 )
