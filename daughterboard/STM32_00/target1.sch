@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Target 1"
+Date "2021-10-12"
+Rev "0"
+Comp "probe-rs"
 Comment1 ""
 Comment2 ""
 Comment3 ""
