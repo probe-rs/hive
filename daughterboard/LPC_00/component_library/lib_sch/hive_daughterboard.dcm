@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LPC1114FDH28_102_5
+D ARM Microcontrollers - MCU
+F http://www.nxp.com/docs/en/data-sheet/LPC1102_1104.pdf
+$ENDCMP
+#
 $CMP LPC845M301JHI33Y
 D NXP - LPC845M301JHI33Y - MCU, 32BIT, 30MHZ, HVQFN-33
 F http://www.nxp.com/docs/en/data-sheet/LPC84x.pdf
