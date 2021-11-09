@@ -1,4 +1,4 @@
-16964028271350597
+16965669351459984
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75368,3 +75368,10 @@ solder-jumper-instruction
 0
 0
 0
+hive_daughterboard
+ATSAMD21E16L-AFT
+
+
+0
+32
+32
