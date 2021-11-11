@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP W25X40CLSNIG
+D NOR Flash spiFlash, 4M-bit, 4Kb Uniform Sector
+F https://www.winbond.com/resource-files/w25x40cl_f 20140325.pdf
+$ENDCMP
+#
 #End Doc Library
