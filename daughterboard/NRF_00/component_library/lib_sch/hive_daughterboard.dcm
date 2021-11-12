@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP nRF52832-QFAB-T
+D RF System on a Chip - SoC Bluetooth 4.2 & 5 NFC tag QFN 48
+F https://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.4.pdf
+$ENDCMP
+#
 #End Doc Library
