@@ -163,9 +163,9 @@ $EndComp
 Wire Wire Line
 	1550 4700 1550 4600
 Text Label 2150 3450 3    50   ~ 0
-SWDIO
+SWDIO-TMS
 Text Label 2600 3450 3    50   ~ 0
-SWCLK
+SWCLK-TCLK
 $Comp
 L Device:R_Small R5
 U 1 1 619E816A
