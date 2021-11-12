@@ -55,38 +55,340 @@ Wire Notes Line
 	1800 2150 800  2150
 Wire Notes Line
 	800  2150 800  1550
-$Comp
-L power:+5V #PWR0118
-U 1 1 6166E658
-P 1700 900
-F 0 "#PWR0118" H 1700 750 50  0001 C CNN
-F 1 "+5V" V 1715 1028 50  0000 L CNN
-F 2 "" H 1700 900 50  0001 C CNN
-F 3 "" H 1700 900 50  0001 C CNN
-	1    1700 900 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR0119
-U 1 1 6166EDD6
-P 1700 1100
-F 0 "#PWR0119" H 1700 950 50  0001 C CNN
-F 1 "+3V3" V 1715 1228 50  0000 L CNN
-F 2 "" H 1700 1100 50  0001 C CNN
-F 3 "" H 1700 1100 50  0001 C CNN
-	1    1700 1100
-	0    -1   -1   0   
-$EndComp
-Wire Notes Line
-	1800 1200 800  1200
-Wire Notes Line
-	800  1200 800  750 
-Wire Notes Line
-	800  750  1800 750 
-Wire Notes Line
-	1800 750  1800 1200
-Text Notes 1200 700  0    50   ~ 0
-Power
 Text Notes 2550 900  0    50   ~ 0
 Add your target here and connect it to the provided Debug and GPIO/UART connections.\n\nDebug and GPIO/UART connections are 5V tolerant. Min signal level is 3.3V
+$Comp
+L hive_daughterboard:ESP32-S3-WROOM-1-N8R8 U?
+U 1 1 618F6A48
+P 6800 3300
+F 0 "U?" H 6800 4667 50  0000 C CNN
+F 1 "ESP32-S3-WROOM-1-N8R8" H 6800 4576 50  0000 C CNN
+F 2 "hive_daughterboard:XCVR_ESP32-S3-WROOM-1-N8R8" H 6800 3300 50  0001 L BNN
+F 3 "" H 6800 3300 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 6800 3300 50  0001 L BNN "STANDARD"
+F 5 "3.35mm" H 6800 3300 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Espressif" H 6800 3300 50  0001 L BNN "MANUFACTURER"
+F 7 "v0.6" H 6800 3300 50  0001 L BNN "PARTREV"
+	1    6800 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1650 2250 1650
+Text Label 2250 1650 2    50   ~ 0
+TMS
+Wire Wire Line
+	1700 1750 2250 1750
+Text Label 2250 1750 2    50   ~ 0
+TCK
+Wire Wire Line
+	1700 1850 2250 1850
+Text Label 2250 1850 2    50   ~ 0
+TDO
+Wire Wire Line
+	1700 1950 2250 1950
+Text Label 2250 1950 2    50   ~ 0
+TDI
+Wire Wire Line
+	1700 2050 2250 2050
+Text Label 2250 2050 2    50   ~ 0
+TRST
+Wire Wire Line
+	1700 2550 2250 2550
+Text Label 2250 2550 2    50   ~ 0
+UART_TX
+Wire Wire Line
+	1700 2650 2250 2650
+Text Label 2250 2650 2    50   ~ 0
+UART_RX
+Wire Wire Line
+	1700 2750 2250 2750
+Text Label 2250 2750 2    50   ~ 0
+GPIO0
+Wire Wire Line
+	1700 2850 2250 2850
+Text Label 2250 2850 2    50   ~ 0
+GPIO1
+Wire Wire Line
+	1700 2950 2250 2950
+Text Label 2250 2950 2    50   ~ 0
+GPIO2
+Wire Wire Line
+	1700 3050 2250 3050
+Text Label 2250 3050 2    50   ~ 0
+GPIO3
+$Comp
+L power:GND #PWR?
+U 1 1 618FE06A
+P 7600 4500
+F 0 "#PWR?" H 7600 4250 50  0001 C CNN
+F 1 "GND" H 7605 4327 50  0000 C CNN
+F 2 "" H 7600 4500 50  0001 C CNN
+F 3 "" H 7600 4500 50  0001 C CNN
+	1    7600 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4400 7600 4400
+Wire Wire Line
+	7600 4400 7600 4500
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6190047A
+P 7700 2200
+F 0 "#PWR?" H 7700 2050 50  0001 C CNN
+F 1 "+3V3" V 7715 2328 50  0000 L CNN
+F 2 "" H 7700 2200 50  0001 C CNN
+F 3 "" H 7700 2200 50  0001 C CNN
+	1    7700 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7700 2200 7650 2200
+Wire Wire Line
+	7400 3600 7950 3600
+Text Label 7950 3600 2    50   ~ 0
+TDO
+Wire Wire Line
+	7400 3800 7950 3800
+Text Label 7950 3800 2    50   ~ 0
+TMS
+Wire Wire Line
+	7400 3700 7950 3700
+Text Label 7950 3700 2    50   ~ 0
+TDI
+Wire Wire Line
+	6200 2600 5650 2600
+Text Label 5650 2600 0    50   ~ 0
+UART_TX
+Wire Wire Line
+	6200 2500 5650 2500
+Text Label 5650 2500 0    50   ~ 0
+UART_RX
+Text Label 5650 2300 0    50   ~ 0
+TRST
+Wire Wire Line
+	6200 2300 5650 2300
+Text Label 7950 3500 2    50   ~ 0
+TCK
+Wire Wire Line
+	7400 3500 7950 3500
+Text Label 2650 3350 3    50   ~ 0
+TCK
+Text Label 2250 3350 3    50   ~ 0
+TMS
+$Comp
+L Device:R_Small R?
+U 1 1 6190BB9E
+P 2650 4100
+AR Path="/616688D6/6190BB9E" Ref="R?"  Part="1" 
+AR Path="/61668514/6190BB9E" Ref="R?"  Part="1" 
+F 0 "R?" H 2709 4146 50  0000 L CNN
+F 1 "10k" H 2709 4055 50  0000 L CNN
+F 2 "" H 2650 4100 50  0001 C CNN
+F 3 "~" H 2650 4100 50  0001 C CNN
+	1    2650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6190BBA4
+P 2650 4400
+AR Path="/616688D6/6190BBA4" Ref="#PWR?"  Part="1" 
+AR Path="/61668514/6190BBA4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2650 4150 50  0001 C CNN
+F 1 "GND" H 2655 4227 50  0000 C CNN
+F 2 "" H 2650 4400 50  0001 C CNN
+F 3 "" H 2650 4400 50  0001 C CNN
+	1    2650 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3350 2650 4000
+Wire Wire Line
+	2650 4400 2650 4200
+$Comp
+L Device:R_Small R?
+U 1 1 6190BBAC
+P 2250 4100
+AR Path="/616688D6/6190BBAC" Ref="R?"  Part="1" 
+AR Path="/61668514/6190BBAC" Ref="R?"  Part="1" 
+F 0 "R?" H 2309 4146 50  0000 L CNN
+F 1 "10k" H 2309 4055 50  0000 L CNN
+F 2 "" H 2250 4100 50  0001 C CNN
+F 3 "~" H 2250 4100 50  0001 C CNN
+	1    2250 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4400 2250 4200
+Wire Wire Line
+	2250 3350 2250 4000
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6190BBB4
+P 2250 4400
+AR Path="/616688D6/6190BBB4" Ref="#PWR?"  Part="1" 
+AR Path="/61668514/6190BBB4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2250 4250 50  0001 C CNN
+F 1 "+3V3" H 2265 4573 50  0000 C CNN
+F 2 "" H 2250 4400 50  0001 C CNN
+F 3 "" H 2250 4400 50  0001 C CNN
+	1    2250 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61910374
+P 1000 4100
+AR Path="/616688D6/61910374" Ref="R?"  Part="1" 
+AR Path="/61668157/61910374" Ref="R?"  Part="1" 
+F 0 "R?" H 1059 4146 50  0000 L CNN
+F 1 "100k" H 1059 4055 50  0000 L CNN
+F 2 "" H 1000 4100 50  0001 C CNN
+F 3 "~" H 1000 4100 50  0001 C CNN
+	1    1000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 6191037A
+P 1700 4100
+F 0 "JP?" V 1654 4168 50  0000 L CNN
+F 1 "NRST" V 1745 4168 50  0000 L CNN
+F 2 "" H 1700 4100 50  0001 C CNN
+F 3 "~" H 1700 4100 50  0001 C CNN
+	1    1700 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61910380
+P 1000 4400
+F 0 "#PWR?" H 1000 4250 50  0001 C CNN
+F 1 "+3V3" H 1015 4573 50  0000 C CNN
+F 2 "" H 1000 4400 50  0001 C CNN
+F 3 "" H 1000 4400 50  0001 C CNN
+	1    1000 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 4000 1000 3850
+Wire Wire Line
+	1000 4400 1000 4200
+Connection ~ 1000 3850
+Wire Wire Line
+	1000 3400 1000 3850
+$Comp
+L power:GND #PWR?
+U 1 1 6191038A
+P 1700 4400
+F 0 "#PWR?" H 1700 4150 50  0001 C CNN
+F 1 "GND" H 1705 4227 50  0000 C CNN
+F 2 "" H 1700 4400 50  0001 C CNN
+F 3 "" H 1700 4400 50  0001 C CNN
+	1    1700 4400
+	1    0    0    -1  
+$EndComp
+Text Label 1000 3400 3    50   ~ 0
+TRST
+$Comp
+L Device:C_Small C?
+U 1 1 61910391
+P 1300 4100
+F 0 "C?" H 1392 4146 50  0000 L CNN
+F 1 "100n" H 1392 4055 50  0000 L CNN
+F 2 "" H 1300 4100 50  0001 C CNN
+F 3 "~" H 1300 4100 50  0001 C CNN
+	1    1300 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4400 1700 4350
+Wire Wire Line
+	1700 4350 1300 4350
+Wire Wire Line
+	1300 4350 1300 4200
+Wire Wire Line
+	1700 4250 1700 4350
+Connection ~ 1700 4350
+Wire Wire Line
+	1700 3950 1700 3850
+Wire Wire Line
+	1000 3850 1300 3850
+Wire Wire Line
+	1300 4000 1300 3850
+Connection ~ 1300 3850
+Wire Wire Line
+	1300 3850 1700 3850
+Wire Wire Line
+	6200 3200 5650 3200
+Text Label 5650 3200 0    50   ~ 0
+GPIO0
+Wire Wire Line
+	6200 3300 5650 3300
+Text Label 5650 3300 0    50   ~ 0
+GPIO1
+Wire Wire Line
+	6200 3400 5650 3400
+Text Label 5650 3400 0    50   ~ 0
+GPIO2
+Wire Wire Line
+	6200 3500 5650 3500
+Text Label 5650 3500 0    50   ~ 0
+GPIO3
+$Comp
+L Device:C_Small C?
+U 1 1 6191C99F
+P 7650 2400
+F 0 "C?" H 7742 2446 50  0000 L CNN
+F 1 "10u" H 7742 2355 50  0000 L CNN
+F 2 "" H 7650 2400 50  0001 C CNN
+F 3 "~" H 7650 2400 50  0001 C CNN
+	1    7650 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2300 7650 2200
+Connection ~ 7650 2200
+Wire Wire Line
+	7650 2200 7400 2200
+$Comp
+L power:GND #PWR?
+U 1 1 6191E673
+P 7650 2550
+F 0 "#PWR?" H 7650 2300 50  0001 C CNN
+F 1 "GND" H 7655 2377 50  0000 C CNN
+F 2 "" H 7650 2550 50  0001 C CNN
+F 3 "" H 7650 2550 50  0001 C CNN
+	1    7650 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2550 7650 2500
+NoConn ~ 7400 2400
+NoConn ~ 7400 2500
+NoConn ~ 7400 2600
+NoConn ~ 7400 2700
+NoConn ~ 7400 2800
+NoConn ~ 7400 2900
+NoConn ~ 7400 3000
+NoConn ~ 7400 3100
+NoConn ~ 7400 3200
+NoConn ~ 7400 3300
+NoConn ~ 7400 3400
+NoConn ~ 7400 3900
+NoConn ~ 7400 4000
+NoConn ~ 7400 4100
+NoConn ~ 7400 4200
+NoConn ~ 6200 3600
+NoConn ~ 6200 3700
+NoConn ~ 6200 3800
+NoConn ~ 6200 3900
+NoConn ~ 6200 4000
+NoConn ~ 6200 4100
+NoConn ~ 6200 4200
+NoConn ~ 6200 3100
+NoConn ~ 6200 3000
+NoConn ~ 6200 2900
+NoConn ~ 6200 2800
 $EndSCHEMATC
