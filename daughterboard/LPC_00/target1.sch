@@ -485,4 +485,18 @@ F 3 "~" H 2350 2700 50  0001 C CNN
 	1    2150 2700
 	0    1    1    0   
 $EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61934697
+P 8200 1700
+F 0 "#PWR?" H 8200 1550 50  0001 C CNN
+F 1 "+3V3" H 8215 1873 50  0000 C CNN
+F 2 "" H 8200 1700 50  0001 C CNN
+F 3 "" H 8200 1700 50  0001 C CNN
+	1    8200 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1700 8200 1800
+Connection ~ 8200 1800
 $EndSCHEMATC
