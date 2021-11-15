@@ -1,4 +1,4 @@
-update=31/10/2021 15:08:23
+update=15/11/2021 13:57:46
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=LPC_00.net
 CopperLayerCount=4
 BoardThickness=0.8
 AllowMicroVias=0
