@@ -259,20 +259,20 @@ Wire Wire Line
 Text Label 4300 4200 0    50   ~ 0
 UART_RX
 Wire Wire Line
-	7500 3100 8050 3100
-Text Label 8050 3100 2    50   ~ 0
+	4850 2700 4300 2700
+Text Label 4300 2700 0    50   ~ 0
 GPIO1
 Wire Wire Line
-	7500 3000 8050 3000
-Text Label 8050 3000 2    50   ~ 0
+	4850 2600 4300 2600
+Text Label 4300 2600 0    50   ~ 0
 GPIO0
 Wire Wire Line
-	7500 3300 8050 3300
-Text Label 8050 3300 2    50   ~ 0
+	4850 4500 4300 4500
+Text Label 4300 4500 0    50   ~ 0
 GPIO3
 Wire Wire Line
-	7500 3200 8050 3200
-Text Label 8050 3200 2    50   ~ 0
+	4850 2800 4300 2800
+Text Label 4300 2800 0    50   ~ 0
 GPIO2
 $Comp
 L Device:C_Small C?
@@ -378,9 +378,6 @@ $EndComp
 NoConn ~ 7500 4500
 NoConn ~ 4850 2400
 NoConn ~ 4850 2500
-NoConn ~ 4850 2600
-NoConn ~ 4850 2700
-NoConn ~ 4850 2800
 NoConn ~ 4850 2900
 NoConn ~ 4850 3000
 NoConn ~ 4850 3100
@@ -391,7 +388,6 @@ NoConn ~ 4850 3800
 NoConn ~ 4850 4000
 NoConn ~ 4850 4100
 NoConn ~ 4850 4400
-NoConn ~ 4850 4500
 NoConn ~ 4850 4600
 NoConn ~ 4850 4700
 NoConn ~ 7500 2300
@@ -487,4 +483,8 @@ F 3 "~" H 2400 2700 50  0001 C CNN
 	1    2200 2700
 	0    1    1    0   
 $EndComp
+NoConn ~ 7500 3000
+NoConn ~ 7500 3100
+NoConn ~ 7500 3200
+NoConn ~ 7500 3300
 $EndSCHEMATC
