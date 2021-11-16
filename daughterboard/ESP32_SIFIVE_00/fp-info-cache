@@ -1,4 +1,4 @@
-16977121136917560
+16972217689008099
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75403,24 +75403,3 @@ XCVR_ESP32-S3-WROOM-1-N8R8
 0
 49
 49
-lofive
-Fiducial_1mm_Dia_2.00mm_Outer_CopperTop
-Circular Fiducial, 1mm bare copper top; 2.00mm keepout
-marker
-0
-1
-1
-lofive
-LoFive-R1
-LoFive-R1
-LoFive-R1
-0
-28
-14
-lofive
-PinHeader_1x14_P2.54mm_Vertical_Castellated_Right
-Through hole straight pin header, 1x14, 2.54mm pitch, single row
-Through hole pin header THT 1x14 2.54mm single row
-0
-28
-14
