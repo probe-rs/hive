@@ -314,7 +314,7 @@ L Device:R_Small R5
 U 1 1 61518C9F
 P 4700 3250
 F 0 "R5" V 4750 3550 50  0000 L CNN
-F 1 "150" V 4750 2900 50  0000 L CNN
+F 1 "6.8k" V 4750 2900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4700 3250 50  0001 C CNN
 F 3 "~" H 4700 3250 50  0001 C CNN
 F 4 "-" H 4700 3250 50  0001 C CNN "Digikey Price (CHF)"
@@ -327,7 +327,7 @@ L Device:R_Small R6
 U 1 1 6151A70A
 P 4700 3350
 F 0 "R6" V 4750 3650 50  0000 L CNN
-F 1 "45" V 4750 3000 50  0000 L CNN
+F 1 "10k" V 4750 3000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4700 3350 50  0001 C CNN
 F 3 "~" H 4700 3350 50  0001 C CNN
 F 4 "-" H 4700 3350 50  0001 C CNN "Digikey Price (CHF)"
@@ -340,7 +340,7 @@ L Device:R_Small R7
 U 1 1 6151A879
 P 4700 3450
 F 0 "R7" V 4750 3750 50  0000 L CNN
-F 1 "30" V 4750 3100 50  0000 L CNN
+F 1 "6.8k" V 4750 3100 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4700 3450 50  0001 C CNN
 F 3 "~" H 4700 3450 50  0001 C CNN
 F 4 "-" H 4700 3450 50  0001 C CNN "Digikey Price (CHF)"
@@ -631,8 +631,6 @@ Wire Wire Line
 Wire Wire Line
 	5100 3650 5100 3750
 Connection ~ 5100 3750
-Text Notes 1600 3300 0    50   ~ 0
-Determine definitive R values for LED during testing
 Wire Wire Line
 	6700 2350 6800 2350
 $Comp
