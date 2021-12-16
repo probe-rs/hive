@@ -91,6 +91,6 @@ Wire Notes Line
 	1700 800  1700 1250
 Text Notes 1100 750  0    50   ~ 0
 Power
-Text Notes 2450 950  0    50   ~ 0
-Add your target here and connect it to the provided Debug and GPIO/UART connections.\n\nDebug and GPIO/UART connections are 5V tolerant. Min signal level is 3.3V
+Text Notes 2400 950  0    50   ~ 0
+Add your target here and connect it to the provided Debug and GPIO/UART connections.\n\nDebug and GPIO/UART connections are 5V tolerant. Min signal level is 3.3V\n\nKeep in mind that this side of the PCB has an area with a part height limitation of 1.28mm
 $EndSCHEMATC
