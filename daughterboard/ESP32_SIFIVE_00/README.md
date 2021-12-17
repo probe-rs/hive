@@ -7,7 +7,7 @@ The following targets are implemented on this Daughterboard:
 | --- | --- |
 | target0 | ESP32-S3-WROOM-1-N8R8 |
 | target1 | ESP32-S2 |
-| target2 | LOFIVE-R1 |
+| target2 | LOFIVE-R1 (FE310-G002) |
 | target3 | ESP32-C3 |
 
 ### Partlist
