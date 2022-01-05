@@ -11,6 +11,7 @@ Compact and modular Raspberry Pi shield for testing probe-rs
 | [shields](./shields/) | Shields needed to assemble the testing hardware |
 
 # Overview
+For more information on the assembly and the testrack itself, please have a look at the [Hive wiki](https://github.com/probe-rs/hive/wiki)
 
 ## PCB
 
