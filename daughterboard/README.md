@@ -1,6 +1,8 @@
 # Daughterboards
 This Folder contains all existing implementations of Hive daughterboards. Generally the MCUs on the daughterboards are sorted by manufacturer or even by series.
 
+If you want to create a new custom daughterboard, please refer to the [wiki page](https://github.com/probe-rs/hive/wiki/Creating-a-custom-Daughterboard) for further instructions.
+
 | Daughterboard | MCUs |
 |--|--|
 | [ATSAMD_00](./ATSAMD_00/) | ATSAMD10C13A-SSUT, ATSAMD09D14A-MUT, ATSAMD51J18A-A-AU-ND, ATSAMD21E16L-AFT  |
